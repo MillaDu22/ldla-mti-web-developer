@@ -25,3 +25,7 @@
     text-decoration: none;
 }
 
+.about:hover, .mailto:hover {
+    color:white;
+}
+

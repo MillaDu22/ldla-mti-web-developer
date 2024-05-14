@@ -19,9 +19,11 @@
     width: 0;
     line-height: 20px;
     text-align: left;
+    padding-left:10px;
     position: absolute;
     transition: width 1s ease-in-out, background-color 1s ease-in-out;
-    background-color: #8798A8;
+    background-color: #8789a8;
+    border-radius:0 10px 10px 0;
     color: black;
     font-size:17px;
     transition: width 0.5s ease;

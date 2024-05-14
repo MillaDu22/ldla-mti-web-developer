@@ -1,38 +1,50 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./gallery.css";
 import Card from "../Card/index";
 import datasProjects from '../../DatasProjects/datasProjects.json';
 
 function Gallery() {
-    // Tableau des différentes classes de taille //
-    const sizes = ['card-small', 'card-medium', 'card-large'];
+    const [filter, setFilter] = useState("all");
 
-    // Index des cartes avec grande taille //
-    const largeSizeCardsIndexes = [0, 2, datasProjects.length - 1]; // Première, troisième et dernière carte //
+    const handleFilter = (category) => {
+        setFilter(category);
+    };
+
+    const filteredProjects = datasProjects.filter(project => {
+        if (filter === "all") {
+            return true;
+        } else {
+            return project.Tags.includes(filter);
+        }
+    });
+
+    const isActive = (category) => {
+        return category === filter ? "active" : "";
+    };
 
     return (
         <section className="gallery">
             <h2 className="title-gallery">Portfolio</h2>
+            <div className="container-filtrage">
+                <span className="filters">Filtrer par</span>
+                <div id="filter-buttons">
+                    <button className={`filter-button ${isActive("all")}`} onClick={() => handleFilter("all")}>Tous</button>
+                    <button className={`filter-button ${isActive("Html5")}`} onClick={() => handleFilter("Html5")}>Html5/Css3</button>
+                    <button className={`filter-button ${isActive("JavaScript")}`} onClick={() => handleFilter("JavaScript")}>JavaScript</button>
+                    <button className={`filter-button ${isActive("React")}`} onClick={() => handleFilter("React")}>React</button>
+                </div>
+            </div>
             <div className="galleryGrid">
-                {datasProjects.map((datasProject, index) => {
-                    // Sélectionne une taille aléatoire pour chaque carte //
-                    const randomSize = sizes[Math.floor(Math.random() * sizes.length)];
-
-                    // Vérifie si cette carte doit avoir une grande taille //
-                    const isLargeSize = largeSizeCardsIndexes.includes(index);
-
-                    return (
-                        <Card
-                            key={datasProject.id}
-                            id={datasProject.id}
-                            title={datasProject.title}
-                            cover={datasProject.cover}
-                            alt={datasProject.alt}
-                            informations={datasProject.informations}
-                            size={isLargeSize ? 'card-large' : randomSize} // Si c'est une grande taille, utilise 'card-large', sinon utilise une taille aléatoire //
-                        />
-                    );
-                })}
+                {filteredProjects.map((project) => (
+                    <Card
+                        key={project.id}
+                        id={project.id}
+                        title={project.title}
+                        cover={project.cover}
+                        alt={project.alt}
+                        informations={project.informations}
+                    />    
+                ))}
             </div>
         </section>
     );

@@ -57,14 +57,34 @@
     .container-navbar {
         justify-content: center;
         padding-right: 0%;
+        padding-left: 0%;
+        width:100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .nav-header {
-        width: 98%;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-left: 0;
+        margin-right: 0;
     }
+
+    .nav_item1, .nav_item2, .nav_item3 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0%;
+        padding-left: 0%;
+        
+    }
+
     .nav_item_text2, .nav_item_text1, .nav_item_text3 {
         overflow:hidden;
         text-overflow: ellipsis;
         white-space:nowrap;
+        margin-left: 0;
+        margin-right: 0;
     }
 }

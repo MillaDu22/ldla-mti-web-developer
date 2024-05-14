@@ -27,8 +27,8 @@
 
 .load div {
     position: absolute;
-    border-top: 3px solid purple;
-    border-bottom: 3px solid purple;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid red;
     border-left: 1px solid white;
     border-right: 1px solid white ;
     opacity: 1;

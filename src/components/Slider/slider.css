@@ -117,6 +117,7 @@
         border-left:none;
         border-right:none;
         border-radius:0px;
+        border-bottom: 3px double #8798A8;
     }
 
     .slider-slides {

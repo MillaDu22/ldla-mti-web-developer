@@ -22,7 +22,7 @@
 		"id": "2",
 		"title": "Ohmyfood!",
 		"informations": "Amélioration de l'interface d'un site mobile avec des animations CSS... Lire +.",
-		"Tags": ["Html5", "Sass"],
+		"Tags": ["Html5", "Css3", "Sass"],
 		"description": "Amélioration de l'interface d'un site mobile avec des animations CSS. En version mobile-first, tablette et desktop, à partir de maquettes figma fournies par le designer.",
 		"code": ["https://github.com/MillaDu22/Ohmyfood-"],
 		"site": ["https://milladu22.github.io/Ohmyfood-/"],

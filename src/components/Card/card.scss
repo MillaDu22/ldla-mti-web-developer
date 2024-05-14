@@ -31,12 +31,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    padding:0;
+    height:100%;
     width:100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #8798a8e1;
+    background-color: #8798a8f4;
     color:rgba(0, 0, 0, 0.699);
     font-family: 'Oranienbaum';
     opacity: 0;
@@ -49,13 +50,17 @@
       animation: fadeInInfo 2s forwards;
     }
     .card-title {
-      opacity:0;
+      color:#8798a8e1;
+      background-color: #8798a8e1;
     }
   }
 }
 
 .card .card-link {
   width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -66,7 +71,7 @@
 
 .card-image {
   width: 100%;
-  height: 100%;
+  height: 71%;
   margin: 0;
   padding: 0%;
   display: flex;
@@ -79,8 +84,9 @@
   justify-content: center;
   align-items: center;
   width:100%;
-  height:50px;
-  bottom: 0px;
+  height:29%;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
@@ -88,6 +94,7 @@
   background-color: #8798A8;
   font-family: 'Oranienbaum';
   text-transform: uppercase;
+  border-top:5px solid lightgrey;
 }
 .title-info {
   font-family: 'Oranienbaum';
