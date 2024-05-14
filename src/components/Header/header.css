@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../../assets/fonts/Cinzel-Regular.otf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Boheme';
+    src: url('../../assets/fonts/Boheme\ Floral.ttf') format('truetype')
+}
+
+.container-header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    background:white;
+    width:96%;
+    padding-left:4%;
+    margin-bottom:0;
+}
+
+.container-containers {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-title-france {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:78%;
+}
+
+.title-app {
+    text-align: center;
+    font-family: 'Cinzel';
+    color:black;
+    font-size: 50px;
+    font-weight: 200;
+    width:420px;
+}
+
+.bleu-blanc-rouge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:5px;
+    width:420px;
+    margin-top:-30px;
+    border:1px solid black;
+}
+
+.bleu {
+    width:33.3%;
+    height:5px;
+    background: blue;
+}
+
+.blanc {
+    width:33.3%;
+    height:5px;
+    background: white;
+}
+
+.rouge {
+    width:33.3%;
+    height: 5px;
+    background:red;
+}
+
+.container-logo-subtitle {
+    width:420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.britain {
+    width:80px;
+    height: 80px;
+}
+
+.subtitle-app {
+    font-family: 'Boheme';
+    color:black;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 240px;
+}
+
+@media screen and (max-width:768px) {
+    .container-header {
+        width:96%;
+        padding-left:2%;
+        padding-right: 2%;;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-containers {
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container-title-france {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:78%;
+    }
+    
+    .title-app {
+        font-size: 32px;
+        width:265px;
+    }
+    
+    .bleu-blanc-rouge {
+        width:265px;
+        margin-top:-20px;
+    }
+    
+    .container-logo-subtitle {
+        width:265px;
+    }
+
+    .subtitle-app {
+        font-size: 35px;
+        width: 260px;
+        margin-top:23px;
+        margin-left: 20px;
+    }
+}

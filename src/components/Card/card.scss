@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Oranienbaum';
+  src: url('../../assets/fonts/Oranienbaum.ttf') format('truetype')
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height:400px;
+  margin:0;
+  padding:0;
+
+  transition: transform 0.3s ease; // Animation de transition pour l'effet de zoom //
+
+
+  &:hover {
+    transform: scale(1.02); // Zoom au survol //
+  }
+}
+
+.card:nth-child(even) .card-image {
+  order: 2;
+}
+
+.card:nth-child(even) .card-details {
+  order: 1;
+}
+
+.card:nth-child(odd) .card-details {
+  order: 2;
+}
+
+.card:nth-child(odd) .card-image {
+  order: 1;
+}
+
+.card .card-link {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.card-image {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 0%;
+  display: flex;
+  object-fit: contain;
+}
+
+.card-details {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width:50%;
+  padding:0;
+  margin: 0;
+  background-color: #a79ca8;
+  color:rgba(0, 0, 0, 0.658);
+  font-family: 'Oranienbaum';
+}
+
+.card-title {
+  width:100%;
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color:rgba(0, 0, 0, 0.658);
+  font-family: 'Oranienbaum';
+}
+
+.card-info {
+  width: 100%;
+  margin-right: 0;
+  text-align: center;
+  font-size: 14px;
+  color:rgba(0, 0, 0, 0.658);
+  font-family: 'Oranienbaum';
+}
+
+
+.card-link {
+  transition: opacity 0.3s ease; /* Animation de transition pour la transition vers une autre page */
+}
+
+.card-link:hover {
+  opacity: 0.9; /* Réduction de l'opacité lors du survol pour indiquer une action */
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.card {
+  animation: fadeIn 0.5s ease forwards; /* Animation de chargement */
+}
+
+
+@media screen and (max-width:768px) {
+  .card {
+    display: flex;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    padding:0;
+  }
+  .card .card-link {
+    display: flex;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .card-link .card-details{
+    width:100%;
+    margin: 0;
+    padding:0;
+  }
+  .card-link .card-image {
+    width:100%;
+    margin: 0;
+    padding:0;
+  }
+
+  .card-info {
+    width:100%;
+    margin: 0;
+    padding:0;
+  }
+
+  .card:nth-child(even) .card-image {
+    order: 1;
+  }
+  
+  .card:nth-child(even) .card-details {
+    order: 2;
+  }
+  
+  .card:nth-child(odd) .card-details {
+    order: 2;
+  }
+  
+  .card:nth-child(odd) .card-image {
+    order: 1;
+  }
+}
+
