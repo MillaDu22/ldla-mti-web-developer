@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ldla-mti-web-developer/static/css/main.6d01b14c.css",
-    "main.js": "/ldla-mti-web-developer/static/js/main.c7836627.js",
+    "main.css": "/ldla-mti-web-developer/static/css/main.eb4eda54.css",
+    "main.js": "/ldla-mti-web-developer/static/js/main.1b2f2118.js",
     "static/js/453.4fb7cf09.chunk.js": "/ldla-mti-web-developer/static/js/453.4fb7cf09.chunk.js",
     "static/media/cv-lmarti-2024.pdf": "/ldla-mti-web-developer/static/media/cv-lmarti-2024.194d88541329b7c255a5.pdf",
     "static/media/Oranienbaum.ttf": "/ldla-mti-web-developer/static/media/Oranienbaum.e5625604e9200634b240.ttf",
@@ -11,12 +11,12 @@
     "static/media/photo-moi.webp": "/ldla-mti-web-developer/static/media/photo-moi.91ef79723d60e8dfc21a.webp",
     "index.html": "/ldla-mti-web-developer/index.html",
     "static/media/chevron.webp": "/ldla-mti-web-developer/static/media/chevron.a38c37cf785688867be6.webp",
-    "main.6d01b14c.css.map": "/ldla-mti-web-developer/static/css/main.6d01b14c.css.map",
-    "main.c7836627.js.map": "/ldla-mti-web-developer/static/js/main.c7836627.js.map",
+    "main.eb4eda54.css.map": "/ldla-mti-web-developer/static/css/main.eb4eda54.css.map",
+    "main.1b2f2118.js.map": "/ldla-mti-web-developer/static/js/main.1b2f2118.js.map",
     "453.4fb7cf09.chunk.js.map": "/ldla-mti-web-developer/static/js/453.4fb7cf09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d01b14c.css",
-    "static/js/main.c7836627.js"
+    "static/css/main.eb4eda54.css",
+    "static/js/main.1b2f2118.js"
   ]
 }
