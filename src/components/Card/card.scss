@@ -3,42 +3,61 @@
   src: url('../../assets/fonts/Oranienbaum.ttf') format('truetype')
 }
 
+@keyframes fadeInInfo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
 .card {
   display: flex;
   flex-direction: row;
   background-color: white;
+  width:46%;
   height:400px;
-  margin:0;
+  margin:0 auto 40px;
+  border:5px solid lightgray;
   padding:0;
+  overflow: hidden;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
 
-  transition: transform 0.3s ease; // Animation de transition pour l'effet de zoom //
 
+  .card-details {
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #8798a8e1;
+    color:rgba(0, 0, 0, 0.699);
+    font-family: 'Oranienbaum';
+    opacity: 0;
+  }
 
   &:hover {
-    transform: scale(1.02); // Zoom au survol //
+    transform: scale(1); 
+    .card-details {
+      display: flex;
+      animation: fadeInInfo 2s forwards;
+    }
+    .card-title {
+      opacity:0;
+    }
   }
-}
-
-.card:nth-child(even) .card-image {
-  order: 2;
-}
-
-.card:nth-child(even) .card-details {
-  order: 1;
-}
-
-.card:nth-child(odd) .card-details {
-  order: 2;
-}
-
-.card:nth-child(odd) .card-image {
-  order: 1;
 }
 
 .card .card-link {
   width:100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
@@ -46,7 +65,7 @@
 }
 
 .card-image {
-  width: 50%;
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0%;
@@ -54,61 +73,44 @@
   object-fit: contain;
 }
 
-.card-details {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width:50%;
-  padding:0;
-  margin: 0;
-  background-color: #a79ca8;
-  color:rgba(0, 0, 0, 0.658);
-  font-family: 'Oranienbaum';
-}
-
 .card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width:100%;
-  margin: 0 0 8px;
+  height:50px;
+  bottom: 0px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color:rgba(0, 0, 0, 0.658);
+  color:rgba(0, 0, 0, 0.699);
+  background-color: #8798A8;
   font-family: 'Oranienbaum';
+  text-transform: uppercase;
+}
+.title-info {
+  font-family: 'Oranienbaum';
+  text-transform: uppercase;
+  color:white;
+  text-align: center;
+  font-size: 28px;
 }
 
 .card-info {
-  width: 100%;
-  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  margin-top: 0px;
+  padding-left:2%;
+  padding-right: 2%;
   text-align: center;
-  font-size: 14px;
-  color:rgba(0, 0, 0, 0.658);
+  font-size: 20px;
+  color:white;
   font-family: 'Oranienbaum';
 }
-
-
-.card-link {
-  transition: opacity 0.3s ease; /* Animation de transition pour la transition vers une autre page */
-}
-
-.card-link:hover {
-  opacity: 0.9; /* Réduction de l'opacité lors du survol pour indiquer une action */
-}
-
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
-
-.card {
-  animation: fadeIn 0.5s ease forwards; /* Animation de chargement */
-}
-
 
 @media screen and (max-width:768px) {
   .card {
@@ -118,24 +120,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top:10px;
     padding:0;
   }
-  .card .card-link {
-    display: flex;
-    width:100%;
-    height:100%;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0%;
-    padding: 0%;
-  }
+
   
   .card-link .card-details{
-    width:100%;
+    width:96%;
     margin: 0;
-    padding:0;
+    padding-left:2%;
+    padding-right: 2%;
   }
   .card-link .card-image {
     width:100%;
@@ -149,20 +142,5 @@
     padding:0;
   }
 
-  .card:nth-child(even) .card-image {
-    order: 1;
-  }
-  
-  .card:nth-child(even) .card-details {
-    order: 2;
-  }
-  
-  .card:nth-child(odd) .card-details {
-    order: 2;
-  }
-  
-  .card:nth-child(odd) .card-image {
-    order: 1;
-  }
 }
 

@@ -26,12 +26,12 @@
     justify-content: center;
     align-items: center;
     font-family: 'Cinzel';
-    color:rgba(0, 0, 0, 0.708);
-    background:  #a79ca8;
+    color:rgba(0, 0, 0, 0.739);
+    background:  #8798A8;
     height:40px;
     width:100%;
     font-size: 30px;
-    font-weight:900;
+    font-weight:bold;
     position: relative;
     margin: -7px 0px;
     padding-top:60px;
@@ -48,7 +48,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #a79ca8;
+    background: #8798A8;
     border-bottom:3px double lightgrey;
     box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
 }
@@ -302,7 +302,7 @@
     }
 
     .box-title-circleskill {
-        background: #a79ca8;
+        background: #8798A8;
     }
     
     .container-circle-skill {
@@ -315,7 +315,7 @@
         padding-top:30px;
         padding-bottom:120px;
         box-shadow: none;
-        background: #a79ca8;
+        background: #8798A8;
         border-bottom:1px solid white;
         border-radius:0px;
     }
@@ -323,7 +323,7 @@
     .titre-circle-skill-box {
         margin-top:30px;
         color: white;
-        background: #a79ca8;
+        background: #8798A8;
         padding-top: 20px;
         width:90%;
         margin-bottom: 0;

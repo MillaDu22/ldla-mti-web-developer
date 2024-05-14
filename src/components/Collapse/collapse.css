@@ -37,7 +37,7 @@
 .labelToggleInfo {
     display: flex;
     align-items: center;
-    background:#a79ca8;
+    background:#8798A8;
     border-radius: 5px 5px 0px 0px;
     width: 100%;
     height: 47px;
@@ -51,7 +51,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color:rgba(0, 0, 0, 0.658);
+    color:rgba(0, 0, 0, 0.699);
     font-family: "Oranienbaum";
     font-weight: 500;
     font-size: 22px;
@@ -68,8 +68,8 @@
 }
 
 .textInfo {
-  background:linear-gradient(45deg, lightgrey, white, #a79ca8);
-  color: black;
+  background:linear-gradient(45deg, lightgrey, white, #8798A8);
+  color:rgba(0, 0, 0, 0.699);
   font-family: "Oranienbaum";
   font-weight: 500;
   font-size: 25px;
@@ -106,7 +106,7 @@
 .projets, .certifications, a {
   padding-top: 0px;
   list-style: none;
-  color: black;
+  color:rgba(0, 0, 0, 0.699);
   font-family: "Oranienbaum";
   font-weight: 400;
   font-size: 22px;
@@ -126,7 +126,7 @@
   left:10px;
   padding-top: 0px;
   list-style: none;
-  color: blue;
+  color: #8798A8;
   font-family: "Cormorant";
   font-weight: 400;
   font-size: 25px;

@@ -21,7 +21,7 @@
     text-align: left;
     position: absolute;
     transition: width 1s ease-in-out, background-color 1s ease-in-out;
-    background-color: red;
+    background-color: #8798A8;
     color: black;
     font-size:17px;
     transition: width 0.5s ease;

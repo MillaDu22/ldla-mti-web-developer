@@ -8,28 +8,26 @@
     padding: 0;
     margin:0 auto;
     border-bottom: 3px double lightgrey;
-    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .galleryGrid {
-    width: 100%;
-    margin:0 auto;
+    width: 96%;
+    margin:40px auto;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
 
 .title-gallery {
     text-align: left;
-    margin-left: 2% ;
+    margin-left: 3.5% ;
     margin-top: 50px;
-    width:98%;
-    text-decoration: underline;
+    width:96.5%;
     font-family: 'Oranienbaum';
-    text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 900;
 }
 

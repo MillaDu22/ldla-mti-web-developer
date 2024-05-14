@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background:#a79ca8;
+    background:#8798A8;
     box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     padding-left:25%;
@@ -58,7 +58,7 @@
     position: relative;
     margin: 0px;
     font-size: 22px;
-    color:rgba(0, 0, 0, 0.658);
+    color:rgba(0, 0, 0, 0.699);
     transition: transform 0.3s ease;
 }
 
