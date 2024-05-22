@@ -1,42 +1,55 @@
-@font-face {
-    font-family: 'Oranienbaum';
-    src: url('../../assets/fonts/Oranienbaum.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: 'Cinzel';
-    src: url('../../assets/fonts/Cinzel-Regular.otf') format('truetype')
-}
-
 .info-projet-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width:100%;
-    padding-top:2%;
+    height:100%;
+    padding-top:0%;
+    top: 0px;
+    margin:0;
     padding-bottom:5%;
     position: relative;
-    margin-top: -28px;
+    border: none;
+    background:black;
 }
 
 .title {
+    border:none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'Cinzel';
-    color:rgba(0, 0, 0, 0.739);
-    background:  #8798A8;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-transform: uppercase;
+    color:white;
+    background:black;
     height:40px;
     width:100%;
     font-size: 30px;
-    font-weight:bold;
+    font-weight:900;
     position: relative;
-    margin: -7px 0px;
+    margin: 0px 0px;
     padding-top:60px;
     padding-bottom: 5px;
 }
+.title{
+    animation: ani 1s;
+    text-align: center;
+}
+
+@keyframes ani{
+    from{
+        letter-spacing: 35px;
+        filter: blur(5px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+
 
 .display-row {
     width:80%;
@@ -48,9 +61,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #8798A8;
-    border-bottom:3px double lightgrey;
-    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
+    background: transparent;
 }
 
 .box-slider-infos {
@@ -61,7 +72,7 @@
     background: white;
     border-radius:10px;
     height: 315px;
-    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 1px rgba(255, 255, 255, 0.2);
 }
 
 .container-mots-cles {
@@ -80,7 +91,7 @@
     padding-right: 5%;
     height:100%;
     position:relative;
-    background: white;
+    background: transparent;
     border-left:1px solid white;
     border-radius:0px 10px 10px 0px;
 }
@@ -108,7 +119,7 @@
     margin-bottom: 20px;
     width: 90%;
     height:100%;
-    font-family: "Oranienbaum";
+    font-family: 'Ysabeau SC', sans-serif;
     color: #565869;
     font-size: 20px;
     font-weight: 500;
@@ -152,16 +163,81 @@
 
 .lien-a {
     text-decoration: none;
-    font-family: "Oranienbaum";
+    font-family: 'Ysabeau SC', sans-serif;
     font-style: 18px;
-    font-weight: 700;
-    color: blue;
+    font-size: 18px;
+    font-weight: 900;
+    color: #61DAFB;
+    border: 2px solid  #61DAFB;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px ;
 }
 
-.lien-a:hover {
-    text-decoration: underline;
-    color:black;
+.lien-a {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px ;
+    z-index: 0;
+    border-radius: 10px;
 }
+
+.lien-a:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(3px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.lien-a:active {
+    color: #000;
+}
+
+.lien-a:active:after {
+    background: transparent;
+}
+
+.lien-a:hover:before {
+    opacity: 1;
+}
+
+.lien-a:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
 
 .box-title-circleskill {
     display: flex;
@@ -169,17 +245,17 @@
     justify-content: space-between;
     align-items: center;
     width:100%;
-    background: white;
+    background: transparent;
 }
 
 .titre-circle-skill-box {
     text-align:center;
     position: relative;
     margin-top: 100px;
-    font-family: 'Oranienbaum';
-    font-size:25px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size:24px;
     font-weight:600;
-    color: #565869;
+    color: white;
 }
 
 .container-circle-skill {
@@ -200,9 +276,9 @@
 
 @media screen and (max-width: 768px) {
     .info-projet-box {
-        background: white;
         overflow: hidden;
-        margin-top: -10px;
+        margin-top: 30px;
+        border:none;
     }
 
     .info-projet-box { 
@@ -217,7 +293,7 @@
 
     .title {
         padding-top:0px;
-        margin-top:0px;
+        margin-top:30px;
     }
 
     .display-row {
@@ -239,14 +315,14 @@
 
     .info-projet {
         width:100%;
-        padding:0;
+        padding:30px 0 0 0;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         box-shadow: none;
-        border-radius:0px
+        border-radius:0px;
     }
 
     .container-mots-cles {
@@ -278,6 +354,7 @@
     }
 
     .container-liens {
+        padding-top: 15px;
         padding-left:0;
         width:100%;
         overflow: hidden;
@@ -302,7 +379,10 @@
     }
 
     .box-title-circleskill {
-        background: #8798A8;
+        background: transparent;
+        margin-bottom:0px;
+        box-sizing: border-box;
+        border-bottom:2px solid black
     }
     
     .container-circle-skill {
@@ -315,15 +395,14 @@
         padding-top:30px;
         padding-bottom:120px;
         box-shadow: none;
-        background: #8798A8;
-        border-bottom:1px solid white;
+        background: transparent;
         border-radius:0px;
     }
     
     .titre-circle-skill-box {
         margin-top:30px;
-        color: white;
-        background: #8798A8;
+        color: black;
+        background: transparent;
         padding-top: 20px;
         width:90%;
         margin-bottom: 0;

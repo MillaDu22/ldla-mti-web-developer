@@ -1,19 +1,3 @@
-@font-face {
-    font-family: 'Oranienbaum';
-    src: url('../../assets/fonts/Oranienbaum.ttf') format('truetype')
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0; /* Commence avec une opacité de 0 */
-        transform: translateY(-20px); /* Décalage vers le haut pour l'effet de fondu */
-    }
-    100% {
-        opacity: 1; /* Termine avec une opacité de 1 */
-        transform: translateY(0); /* Pas de décalage vertical */
-    }
-}
-
 .banniere {
     display: flex;
     flex-direction: column;
@@ -24,22 +8,34 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
-    background: #8798A8;
-    border-bottom:3px double lightgrey;
+    background:transparent;
     width: 100%;
     height: 250px;
     padding-bottom: 20px;
+    padding-top: 40px;
     overflow: hidden;
-    font-family: 'Oranienbaum';
-    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 1s forwards; /* Utilisation de l'animation fadeIn */
+    font-family: 'Ysabeau SC', sans-serif;
+    /*animation: fadeIn 1s forwards; 
+    opacity: 0; */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.5; /* Commence avec une opacité de 0 */
+        transform: translateX(-20px); /* Décalage vers le haut pour l'effet de fondu */
+    }
+    100% {
+        opacity: 1; /* Termine avec une opacité de 1 */
+        transform: translateX(0); /* Pas de décalage vertical */
+    }
 }
 
 .title-banniere {
-    font-family: "Oranienbaum";
+    font-family: 'Ysabeau SC', sans-serif;
     font-size: 25px;
     text-align: center;
-    color:rgba(0, 0, 0, 0.699);
+    color:white;
+    transition: transform 0.3s ease;
 }
 
 .txt-banniere {
@@ -51,7 +47,12 @@
     width: 50%;
     height: 150px;
     font-size: 22px;
-    color:rgba(0, 0, 0, 0.699);
+    color:white;
+    transition: transform 0.3s ease;
+}
+
+.txt-banniere:hover, .title-banniere:hover {
+    transform: scale(1.1); /* Effectue un léger zoom au survol */
 }
 
 .fa-linkedin {
@@ -59,7 +60,7 @@
     text-align: center;
     width: 30px;
     line-height: 30px;
-    color: white;
+    color: #61DAFB;
     cursor: pointer;
 }
 

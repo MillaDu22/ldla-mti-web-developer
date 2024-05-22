@@ -1,39 +1,87 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./carousel.scss";
-import DatasCarousel from '../../DatasProjects/datasCarrouselHome.json';
 
 function Carousel(){
     const [currentSlide, setCurrentSlide] = useState(0);
-    const slides = DatasCarousel; 
-    const length = slides.length;
+    const slides = [
+        {
+            id: 1,
+            content: (
+                <div className="container-ellipses">
+                    <div className= "react-ellipses">
+                        <section>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </section>
+                        <section>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </section>
+                    </div>
+                    <h4 className="title-react">Pure CSS React ellipses Animation</h4>
+                </div>
+            )
+        },
+        {
+        id:2, content: (
+            <div className ="container-loader">
+                <div className="ring">
+                    <h4>Loading...</h4>
+                </div>
+            </div>
+            )
+        },
+        {
+            id:3, content: (
+                <div className ="container-background">
+                    <h4 className="title-back">Pure CSS Gradient Background Animation</h4>
+                </div>
+            )
+        },
+        {
+            id:4, content: (
+                <div className ="container-text">
+                    <p className="text-anim">Pure Css Text Animation Effect</p>
+                </div>
+            )
+        }
+    ];
 
     // Function to handle next slide //
     const nextSlide = useCallback(() => {
-        setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);
-    }, [currentSlide, length]);
+        setCurrentSlide(currentSlide === slides.length - 1 ? 0 : currentSlide + 1);
+    }, [currentSlide, slides.length]);
 
     // Function to handle previous slide //
     const previousSlide = useCallback(() => {
-        setCurrentSlide(currentSlide === 0 ? length - 1 : currentSlide - 1);
-    }, [currentSlide, length]);
+        setCurrentSlide(currentSlide === 0 ? slides.length - 1 : currentSlide - 1);
+    }, [currentSlide, slides.length]);
 
     // Automatic slide change //
     useEffect(() => {
         const interval = setInterval(() => {
             nextSlide();
-        }, 5000); // Change slide every 2 seconds
+        }, 5000); // Change slide every 5 seconds
         return () => clearInterval(interval);
     }, [nextSlide]);
 
     return (
         <div className ="carousel">
+            <h3 className ="title-carousel">Animations</h3>
             <div className="container-arrows">
-                {length > 1 && <i className="fa-solid fa-chevron-left left" onClick={previousSlide}></i>}
-                {length > 1 && <i className="fa-solid fa-chevron-right right" onClick={nextSlide}></i>}
+                {slides.length > 1 && <i className="fa-solid fa-chevron-left left" onClick={previousSlide}></i>}
+                {slides.length > 1 && <i className="fa-solid fa-chevron-right right" onClick={nextSlide}></i>}
             </div>
-            <div className = "slide">
-                <img src= {slides[currentSlide].cover} alt={slides[currentSlide].alt} className="cover-slide"/>
-                <h3 className = "title-slide">{slides[currentSlide].title}</h3>
+            <div className="slide">
+                {slides.map((slide, index) => (
+                    <div  key={slide.id} className={`slide-content ${currentSlide === index ? "active" : "inactive"}`}>
+                        {slide.content}
+                    </div>
+                ))}
             </div>
         </div>
     )

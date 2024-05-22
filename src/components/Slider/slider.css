@@ -97,7 +97,7 @@
 }
 
 .slider-count {
-    font-family:'Oranienbaum';
+    font-family: 'Ysabeau SC', sans-serif;
     font-size:19px;
     font-weight: 500;
     line-height: 25.6px;
@@ -117,7 +117,6 @@
         border-left:none;
         border-right:none;
         border-radius:0px;
-        border-bottom: 3px double #8798A8;
     }
 
     .slider-slides {

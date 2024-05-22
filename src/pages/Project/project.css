@@ -1,27 +1,15 @@
-@charset "UTF-8";
-projet-page {
+.projet-page {
   background: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 0;
   padding: 0;
   height: 100%;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.projet-page {
-  opacity: 0; /* Initialement, la page est transparente */
-  animation: fadeIn 3s ease forwards; /* Animation d'entrée en fondu */
+  border: none;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {

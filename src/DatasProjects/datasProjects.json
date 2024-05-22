@@ -16,7 +16,9 @@
 		],
 		"html": 48,
 		"css": 52,
-		"js": 0
+		"js": 0, 
+		"iconClass": "fa-html5",
+		"tagCover": "Html5"
 	},
 	{
 		"id": "2",
@@ -36,7 +38,9 @@
 		],
 		"html": 41,
 		"css": 59,
-		"js": 0
+		"js": 0,
+		"iconClass": "fa-html5",
+		"tagCover": "Html5"
 	},
 	{
 		"id": "3",
@@ -47,7 +51,7 @@
 		"code": ["https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel"],
 		"Tags": ["Html5", "Css3", "JavaScript"],
 		"alt": "photo site architecte Sophie Bluel",
-		"cover": "https://i.ibb.co/52t5BZ2/cover-sbluel.webp",
+		"cover": "https://i.ibb.co/HVNGkq1/cover-SBluel.webp",
 		"photos": [
 			"https://i.ibb.co/pnTncTy/portfolio-Architecte11-min.webp",
 			"https://i.ibb.co/jzh4RvX/portfolio-Architecte12-min.webp",
@@ -57,7 +61,9 @@
 		],
 		"html": 15,
 		"css": 29,
-		"js": 56
+		"js": 56,
+		"iconClass": "fa-js",
+		"tagCover": "JavaScript"
 	},
 	{
 		"id": "4",
@@ -77,7 +83,9 @@
 		],
 		"html": 57,
 		"css": 33,
-		"js": 10
+		"js": 10,
+		"iconClass": "fa-js",
+		"tagCover": "JavaScript"
 	},
 	{
 		"id": "5",
@@ -99,7 +107,9 @@
 		],
 		"html": 2,
 		"css": 63,
-		"js": 35
+		"js": 35,
+		"iconClass": "fa-react",
+		"tagCover": "React"
 	},
 	{
 		"id": "6",
@@ -121,7 +131,9 @@
 		],
 		"html": 17,
 		"css": 29,
-		"js": 54
+		"js": 54,
+		"iconClass": "fa-react",
+		"tagCover": "React"
 	},
 	{
 		"id": "7",
@@ -141,7 +153,9 @@
 		],
 		"html": 15,
 		"css": 62,
-		"js": 23
+		"js": 23,
+		"iconClass": "fa-js",
+		"tagCover": "JavaScript"
 	},
 	{
 		"id": "8",
@@ -165,7 +179,9 @@
 		],
 		"html": 11,
 		"css": 31,
-		"js": 58
+		"js": 58,
+		"iconClass": "fa-js",
+		"tagCover": "JavaScript"
 	},
 	{
 		"id": "9",
@@ -186,7 +202,9 @@
 		],
 		"html": 7,
 		"css": 30,
-		"js": 63
+		"js": 63,
+		"iconClass": "fa-js",
+		"tagCover": "JavaScript"
 	},
 	{
 		"id": "10",
@@ -202,7 +220,9 @@
 		],
 		"html": 17,
 		"css": 5,
-		"js": 78
+		"js": 78,
+		"iconClass": "fa-js",
+		"tagCover": "JavaScript"
 	},
 	{
 		"id": "11",
@@ -221,7 +241,9 @@
 		],
 		"html": 3,
 		"css": 10,
-		"js": 87
+		"js": 87,
+		"iconClass": "fa-react",
+		"tagCover": "React"
 	},
 	{
 		"id": "12",
@@ -243,6 +265,8 @@
 		],
 		"html": 1,
 		"css": 27,
-		"js": 72
+		"js": 72,
+		"iconClass": "fa-react",
+		"tagCover": "React"
 	}
 ]

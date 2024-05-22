@@ -1,27 +1,23 @@
-@font-face {
-    font-family: 'Oranienbaum';
-    src: url('../../assets/fonts/Oranienbaum.ttf') format('truetype')
-}
 .section-competences {
     width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background:black;
 }
 
 .title-competences {
     display:flex;
     flex-direction: row;
-    align-items:flex-start;
-    justify-content: flex-start;
-    margin-left: 3.5% ;
-    font-family: "Oranienbaum";
-    color:black;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    color:white;
     font-weight: 900;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 0;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     height:40px;
     width:96.5%;
 }
@@ -33,15 +29,14 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap:wrap;
-    animation: rotateIn 10s ease infinite;
     align-items: center;
-    width:97%;
+    width:92%;
     margin-left:auto;
     margin-right: auto;
     padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
+    padding-bottom: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
     min-height:100px;
 }
 .container-name-icon {
@@ -60,19 +55,10 @@ i {
 }
 
 .name-icon {
-    font-family: 'Oranienbaum';
+    font-family: 'Ysabeau SC', sans-serif;
     font-size:12px;
     margin-top: 0;
-    color:black;
-}
-
-@keyframes rotateIn {
-    0% {
-        transform: rotateY(0deg);
-    }
-    100% {
-        transform: rotateY(360deg);
-    }
+    color:white;
 }
 
 i:hover {
@@ -134,12 +120,83 @@ i:hover {
 .fa-file-powerpoint {
     color:orange;
 }
+.fa-git, .fa-github{
+    color: white;
+}
+
+
+@keyframes vibrate {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-1px); }
+    40% { transform: translateX(1px); }
+    60% { transform: translateX(-1px); }
+    80% { transform: translateX(1px); }
+}
+
+.vibrate {
+    animation: vibrate 2s ease-in-out infinite;
+}
+
+.container-icons .container-name-icon:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.container-icons .container-name-icon:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.container-icons .container-name-icon:nth-child(3) {
+    animation-delay: 6s;
+}
+
+.container-icons .container-name-icon:nth-child(4) {
+    animation-delay: 8s;
+}
+
+.container-icons .container-name-icon:nth-child(5) {
+    animation-delay: 10s;
+}
+
+.container-icons .container-name-icon:nth-child(6) {
+    animation-delay: 12s;
+}
+
+.container-icons .container-name-icon:nth-child(7) {
+    animation-delay: 14s;
+}
+
+.container-icons .container-name-icon:nth-child(8) {
+    animation-delay: 16s;
+}
+
+.container-icons .container-name-icon:nth-child(9) {
+    animation-delay: 18s;
+}
+
+.container-icons .container-name-icon:nth-child(10) {
+    animation-delay: 20s;
+}
+
+.container-icons .container-name-icon:nth-child(11) {
+    animation-delay: 22s;
+}
+
+.container-icons .container-name-icon:nth-child(12) {
+    animation-delay: 24s;
+}
+
+.container-icons .container-name-icon:nth-child(13) {
+    animation-delay: 26s;
+}
+
 @media screen and (max-width:768px) {
     .container-icons {
-        width:96%;
-        padding-left:2%;
-        padding-right:2%;
+        flex-direction: row;
+        width:86%;
+        padding-left:7%;
+        padding-right:7%;
         text-align: center;
+        justify-content: space-around;
     }
     i {
         font-size:24px;

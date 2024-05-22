@@ -9,17 +9,19 @@
 }
 
 .motCle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background:black;
-    border-radius: 15px;
+    border-radius: 10px;
     color:white;
+    font-weight: 900;
     padding-left:4%;
     padding-right:4%;
     margin-right: 10px;
-    text-align: center;
-    font-family:'Oranienbaum';
-    font-size:14px;
-    line-height:20px;
-    font-weight:500;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size:18px;
     position:relative;
 }
 
@@ -31,7 +33,6 @@
     }
     
     .motCle {
-        font-size:10px;
-        line-height:14.26px;
+        font-size:16px;
     }
 }

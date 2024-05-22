@@ -32,7 +32,7 @@ const CircleSkillBarJs = ({percentage}) => {
         restartAnimation3();
     }, [percentage]);
     const circleStyle = {
-        background: `conic-gradient(#ffff00 ${progress3}%, #ccc ${progress3}%)`,
+        background: `conic-gradient(#FFCC00 ${progress3}%, #fff ${progress3}%)`,
     };
     const roundedProgress3 = Math.round(progress3) // Pour éviter les décimals
 

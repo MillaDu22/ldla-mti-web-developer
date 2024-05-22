@@ -1,5 +1,6 @@
 .titre-skill {
-    color: #565869;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .circular-skill-bar {
@@ -30,7 +31,7 @@
     top: 50%;
     left: 50%;
     font-size: 24px;
-    font-family: 'Oranienbaum';
+    font-family: 'Ysabeau SC', sans-serif;
     font-weight: bold;
     transition: transform 2s, opacity 2s; /*Ajout une transition pour la transformation et l'opacité */
 }

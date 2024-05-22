@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Oranienbaum';
-    src: url('../../assets/fonts/Oranienbaum.ttf') format('truetype')
-}
-
 .container-footer {
     display:flex;
     flex-direction: column;
@@ -12,15 +7,15 @@
     padding-right:10%;
     padding-top:20px;
     padding-bottom: 20px;
-    background: #8798A8;
+    background: black;
     width:80%;
     margin:0;
-    border-top:3px double lightgrey;
+    border-top:1px solid black;
 }
 
 .about, .mailto {
-    color:rgba(0, 0, 0, 0.699);
-    font-family: 'Oranienbaum';
+    color:white;
+    font-family: 'Ysabeau SC', sans-serif;
     font-size: 24px;
     text-decoration: none;
 }

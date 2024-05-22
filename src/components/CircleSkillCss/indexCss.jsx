@@ -34,7 +34,7 @@ const CircleSkillBarCss = ({percentage}) => {
     }, [percentage]);
 
     const circleStyle = {
-        background: `conic-gradient(#008cff ${progress}%, #ccc ${progress}%)`,
+        background: `conic-gradient(#61DAFB ${progress}%, #fff ${progress}%)`,
     };
     //Rounded progress, pas de décimals
     return (

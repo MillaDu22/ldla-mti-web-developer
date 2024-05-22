@@ -1,7 +1,5 @@
 .error_wrapper {
-    background:white;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: black;
     box-sizing: border-box;
     width: 100%;
     height:100%;
@@ -15,23 +13,24 @@
 }
 
 .error_number {
-    font-family:"Oranienbaum";
+    font-family: 'Ysabeau SC', sans-serif;
     text-align: center;
     font-size: 120px;
     margin: 130px auto 60px auto;
-    color: black;
+    color: white;
 }
 
 .error_description {
-    font-family:"Oranienbaum";
+    font-family: 'Ysabeau SC', sans-serif;
     text-align: center;
     font-size: 120px;
     font-weight: 400;
     margin: 30px auto 60px auto;
+    color:white
 }
 
 .error-link {
-    font-family:"Oranienbaum";
+    font-family: 'Ysabeau SC', sans-serif;
     text-align: center;
     font-size: 30px;
     color:red;
@@ -40,7 +39,7 @@
 
 .fa-circle-exclamation {
     text-align: center;
-    color:red;
+    color:blue;
     font-size: 120px;
     margin: 30px auto 60px auto;
 }

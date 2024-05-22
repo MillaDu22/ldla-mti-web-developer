@@ -13,10 +13,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items:flex-end;
-    background:white;
+    background:black;
     width:96%;
     padding-left:4%;
     margin-bottom:0;
+    border:none;
 }
 
 .container-containers {
@@ -36,10 +37,30 @@
     width:78%;
 }
 
+.title-app, .subtitle-app {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 2s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.505);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
 .title-app {
     text-align: center;
     font-family: 'Cinzel';
-    color:black;
+    color:white;
     font-size: 50px;
     font-weight: 200;
     width:420px;
@@ -88,8 +109,9 @@
 
 .subtitle-app {
     font-family: 'Boheme';
-    color:black;
-    font-size: 50px;
+    color:white;
+    font-size: 45px;
+    line-height: 52px;
     font-weight: 100;
     margin-top: 15px;
     margin-left: 40px;
