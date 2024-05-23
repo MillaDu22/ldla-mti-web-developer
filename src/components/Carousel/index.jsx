@@ -45,10 +45,11 @@ function Carousel(){
         {
             id:4, content: (
                 <div className ="container-text">
-                    <p className="text-anim">Pure Css Text Animation Effect</p>
+                    <h4 className="text-anim">Pure Css Text Animation Effect</h4>
                 </div>
             )
         }
+        
     ];
 
     // Function to handle next slide //

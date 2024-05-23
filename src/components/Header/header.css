@@ -45,6 +45,7 @@
     background-size: 80%;
     animation: animate 2s linear infinite;
     -webkit-background-clip: text;
+    background-clip:text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.505);
 }
 
@@ -108,14 +109,17 @@
 }
 
 .subtitle-app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-family: 'Boheme';
     color:white;
     font-size: 45px;
-    line-height: 52px;
+    line-height: 60px;
     font-weight: 100;
     margin-top: 15px;
-    margin-left: 40px;
-    width: 240px;
+    margin-left: 20px;
+    width: 260px;
 }
 
 @media screen and (max-width:768px) {

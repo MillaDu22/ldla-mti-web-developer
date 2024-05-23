@@ -14,9 +14,10 @@
   border-top-left-radius: 5px;
   width:100%;
   margin-bottom:0px;
-  color: #61DAFB;
+  color: black;
   font-size: 20px;
-  background: white;
+  font-weight: 900;
+  background: #61DAFB;
   font-family: 'Ysabeau SC', sans-serif;
   height:10%;
 }
@@ -45,9 +46,9 @@
 }
 
 #timeline p {
-  width:100%;
+  width:80%;
   height: 100%;
-  padding: 0;
+  padding: 0 10% 0 10%;
   margin-top: 0;
   color: white;
   font-family: 'Ysabeau SC', sans-serif;
@@ -68,7 +69,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0rem;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 

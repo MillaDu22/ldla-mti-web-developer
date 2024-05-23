@@ -3,7 +3,7 @@ import "./features.css";
 function Features () {
     return (
         <div className="section-competences">
-            <h2 className="title-competences">Compétences</h2>
+            <h4 className="title-competences">Compétences</h4>
             <div className="container-icons">
                 <span className ="container-name-icon vibrate">
                     <i className="fa-brands fa-html5 "></i>

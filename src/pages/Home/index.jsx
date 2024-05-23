@@ -1,8 +1,6 @@
 import './home.css';
 import Banner from '../../components/Banner/index.jsx';
 import TimeLine from '../../components/Timeline/index.jsx';
-//import Gallery from '../../components/Gallery/index.jsx';
-//import Features from '../../components/Features/index.jsx';
 import SkillBar from '../../components/SkillBar/index.jsx';
 import Carousel from '../../components/Carousel/index.jsx';
 import LoadPage from '../../components/LoadPage/index.jsx';
