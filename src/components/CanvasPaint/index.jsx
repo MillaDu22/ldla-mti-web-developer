@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import React, { useEffect, useRef } from 'react';
 import "./canvasPaint.css"
 
@@ -11,7 +11,7 @@ const CanvasPaint = () => {
         let w = (c.width = window.innerWidth);
         let h = (c.height = window.innerHeight);
 
-        let cosang, sinang, c2, $$, t, scd, scr, cx, cy, pcnt, maxsc, scy, u = 0;
+        let cosang, sinang, c2, $$, scd, scr, cx, maxsc, scy  = 0;
 
         const delay = 1;
         let cnt = delay - 1;
@@ -73,7 +73,6 @@ const CanvasPaint = () => {
         };
 
         const go = () => {
-            t = new Date();
             cnt++;
 
             if (cnt >= delay) {
@@ -96,7 +95,6 @@ const CanvasPaint = () => {
             $.fillStyle = 'hsla(0,0%,0%,1)';
             $.fillRect(0, 0, w, h);
             $.globalCompositeOperation = 'lighter';
-            pcnt = 0;
             let p = parr.first;
             while (p != null) {
                 const nxt = p.next;
@@ -129,7 +127,6 @@ const CanvasPaint = () => {
                     cx = 0.5 * (scd - 1) * scd;
                     if (scr <= maxsc) {
                         $.drawImage(c2, cx, 0, scd, scd, p.px - scr, p.py - scr, scd, scd);
-                        pcnt++;
                     }
                 }
                 p = nxt;
@@ -200,17 +197,6 @@ const CanvasPaint = () => {
 
         draw();
         run();
-
-        /*const handleResize = () => {
-            c.width = w = window.innerWidth;
-            c.height = h = window.innerHeight;
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };*/
     }, []);
 
 
