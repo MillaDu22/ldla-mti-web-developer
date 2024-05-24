@@ -58,7 +58,10 @@ const CanvasWaves = () => {
         };
     }, []);
 
-    return <div className="container-canvas-waves"><canvas ref={canvasRef} id="waterCanvas"></canvas><h4 className="text-canvas-waves">JavaScript background animation</h4></div>;
+    return <div className="container-canvas-waves">
+                <canvas ref={canvasRef} id="waterCanvas"></canvas>
+                <h4 className="text-canvas-waves">JavaScript background animation</h4>
+            </div>;
 };
 
 export default CanvasWaves;
