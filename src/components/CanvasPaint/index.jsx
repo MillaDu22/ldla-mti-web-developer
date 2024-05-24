@@ -1,24 +1,23 @@
-
 import React, { useEffect, useRef } from 'react';
-import "./canvasPaint.css"
+import './canvasPaint.css';
 
 const CanvasPaint = () => {
     const canvasRef = useRef(null);
 
     useEffect(() => {
         const c = canvasRef.current;
-        const $ = c.getContext('2d');
+        const ctx = c.getContext('2d');
         let w = (c.width = window.innerWidth);
         let h = (c.height = window.innerHeight);
 
-        let cosang, sinang, c2, $$, scd, scr, cx, maxsc, scy  = 0;
+        let cosang, sinang, c2, c2Ctx, scd, scr, cx, maxsc, scy = 0;
 
         const delay = 1;
         let cnt = delay - 1;
         const num = 5;
         const pov = 300;
-        const midX = w / 2;
-        const midY = h / 2;
+        let midX = w / 2;
+        let midY = h / 2;
         const parr = {};
         const darr = {};
         const rndSp = 0.13;
@@ -44,7 +43,7 @@ const CanvasPaint = () => {
             c2 = document.createElement('canvas');
             c2.width = (maxd * (maxd + 1)) / 2;
             c2.height = maxd;
-            $$ = c2.getContext('2d');
+            c2Ctx = c2.getContext('2d');
 
             for (diam = mind; diam <= maxd; diam++) {
                 rad = diam / 2;
@@ -53,19 +52,19 @@ const CanvasPaint = () => {
 
                 _midX = _x + rad;
                 _midY = rad;
-                g = $$.createRadialGradient(_midX, _midY, 0, _midX, _midY, rad);
+                g = c2Ctx.createRadialGradient(_midX, _midY, 0, _midX, _midY, rad);
                 g.addColorStop(0, g1);
                 g.addColorStop(0.5, g1);
                 g.addColorStop(1, g2);
-                $$.fillStyle = g;
-                $$.beginPath();
-                $$.arc(_midX, _midY, rad, 0, 2 * Math.PI, false);
-                $$.closePath();
-                $$.fill();
+                c2Ctx.fillStyle = g;
+                c2Ctx.beginPath();
+                c2Ctx.arc(_midX, _midY, rad, 0, 2 * Math.PI, false);
+                c2Ctx.closePath();
+                c2Ctx.fill();
 
                 _x += diam;
-                }
-            };
+            }
+        };
 
         const run = () => {
             window.requestAnimationFrame(run);
@@ -74,7 +73,6 @@ const CanvasPaint = () => {
 
         const go = () => {
             cnt++;
-
             if (cnt >= delay) {
                 cnt = 0;
                 for (let i = 0; i < num; i++) {
@@ -82,7 +80,7 @@ const CanvasPaint = () => {
                     const _x = sz * Math.sin(8 * st + p1);
                     const _y = scy * sz * Math.cos(5 * st + p2);
                     const _z = sz * Math.cos(7 * st + 0.8 * Math.cos(3 * st));
-                    const p = add(_x, _y, _z, 0, 0, 0);
+                    const p = addParticle(_x, _y, _z, 0, 0, 0);
                     p.solid = 340;
                     p.fade = 401;
                 }
@@ -90,11 +88,11 @@ const CanvasPaint = () => {
             ang = (ang + sp) % (Math.PI * 2);
             sinang = Math.sin(ang);
             cosang = Math.cos(ang);
-            $.globalCompositeOperation = 'source-over';
-            $.globalAlpha = 1;
-            $.fillStyle = 'hsla(0,0%,0%,1)';
-            $.fillRect(0, 0, w, h);
-            $.globalCompositeOperation = 'lighter';
+            ctx.globalCompositeOperation = 'source-over';
+            ctx.globalAlpha = 1;
+            ctx.fillStyle = 'hsla(0,0%,0%,1)';
+            ctx.fillRect(0, 0, w, h);
+            ctx.globalCompositeOperation = 'lighter';
             let p = parr.first;
             while (p != null) {
                 const nxt = p.next;
@@ -108,7 +106,7 @@ const CanvasPaint = () => {
                     p.x += p.velX;
                     p.y += p.velY;
                     p.z += p.velZ;
-                    $.globalAlpha = 0.8 - (p.age - p.solid) / (p.fade - p.solid);
+                    ctx.globalAlpha = 0.8 - (p.age - p.solid) / (p.fade - p.solid);
                 }
                 const rotX = cosang * p.x + sinang * p.z;
                 const rotZ = -sinang * p.x + cosang * p.z;
@@ -120,20 +118,20 @@ const CanvasPaint = () => {
                 }
                 const inV = rotZ > maxZ;
                 if (p.dead) {
-                    clear(p);
+                    clearParticle(p);
                 } else if (!inV) {
                     scd = Math.round(m * dia);
                     scr = 0.5 * scd;
                     cx = 0.5 * (scd - 1) * scd;
                     if (scr <= maxsc) {
-                        $.drawImage(c2, cx, 0, scd, scd, p.px - scr, p.py - scr, scd, scd);
+                        ctx.drawImage(c2, cx, 0, scd, scd, p.px - scr, p.py - scr, scd, scd);
                     }
                 }
                 p = nxt;
             }
         };
 
-        const add = (_x, _y, _z, _vx, _vy, _vz) => {
+        const addParticle = (_x, _y, _z, _vx, _vy, _vz) => {
             let newp;
             if (darr.first != null) {
                 newp = darr.first;
@@ -143,31 +141,31 @@ const CanvasPaint = () => {
                 } else {
                     darr.first = null;
                 }
-                } else {
-                    newp = {};
-                }
-                if (parr.first == null) {
-                    parr.first = newp;
-                    newp.prev = null;
-                    newp.next = null;
-                } else {
-                    newp.next = parr.first;
-                    parr.first.prev = newp;
-                    parr.first = newp;
-                    newp.prev = null;
-                }
-                newp.x = _x;
-                newp.y = _y;
-                newp.z = _z;
-                newp.velX = _vx;
-                newp.velY = _vy;
-                newp.velZ = _vz;
-                newp.age = 0;
-                newp.dead = false;
-                return newp;
+            } else {
+                newp = {};
+            }
+            if (parr.first == null) {
+                parr.first = newp;
+                newp.prev = null;
+                newp.next = null;
+            } else {
+                newp.next = parr.first;
+                parr.first.prev = newp;
+                parr.first = newp;
+                newp.prev = null;
+            }
+            newp.x = _x;
+            newp.y = _y;
+            newp.z = _z;
+            newp.velX = _vx;
+            newp.velY = _vy;
+            newp.velZ = _vz;
+            newp.age = 0;
+            newp.dead = false;
+            return newp;
         };
 
-        const clear = (p) => {
+        const clearParticle = (p) => {
             if (parr.first === p) {
                 if (p.next != null) {
                     p.next.prev = null;
@@ -195,15 +193,36 @@ const CanvasPaint = () => {
             }
         };
 
+        const handleResize = debounce(() => {
+            w = c.width = window.innerWidth;
+            h = c.height = window.innerHeight;
+            midX = w / 2;
+            midY = h / 2;
+        }, 100);
+
+        window.addEventListener('resize', handleResize);
         draw();
         run();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     }, []);
 
+    const debounce = (func, wait) => {
+        let timeout;
+        return (...args) => {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), wait);
+        };
+    };
 
-    return <div className="container-canvas-paint">
-                <canvas ref={canvasRef} id="canv"></canvas>
-                <h4 className="text-canvas-paint">JavaScript background animation</h4>
-            </div>;
+    return (
+        <div className="container-canvas-paint">
+            <canvas ref={canvasRef} id="canv"></canvas>
+            <h4 className="text-canvas-paint">JavaScript background animation</h4>
+        </div>
+    );
 };
 
 export default CanvasPaint;

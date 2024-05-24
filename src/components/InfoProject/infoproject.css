@@ -305,9 +305,9 @@
         background: transparent;
         margin-bottom:0px;
         box-sizing: border-box;
-        border-bottom:2px solid black
+        color:white;
     }
-    
+
     .container-circle-skill {
         flex-direction: column;
         justify-content: space-between;
@@ -320,11 +320,12 @@
         box-shadow: none;
         background: transparent;
         border-radius:0px;
+        color: white;
     }
     
     .titre-circle-skill-box {
         margin-top:30px;
-        color: black;
+        color: white;
         background: transparent;
         padding-top: 20px;
         width:90%;

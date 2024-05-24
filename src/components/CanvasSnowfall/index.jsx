@@ -6,11 +6,11 @@ const Snowfall = () => {
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        const cxt = canvas.getContext('2d');
+        const ctx = canvas.getContext('2d');
         let width = window.innerWidth;
         let height = window.innerHeight;
         let animationFrameId;
-        
+
         canvas.width = width;
         canvas.height = height;
 
@@ -34,27 +34,25 @@ const Snowfall = () => {
             this.color = getRandomColor();
         }
 
-        Particle.prototype.update = function() {
+        Particle.prototype.update = function () {
             this.y += this.velocityY;
-                if (this.y > height) {
-                    this.y = 0;
-                    this.x = Math.random() * width;
+            if (this.y > height) {
+                this.y = 0;
+                this.x = Math.random() * width;
             }
         };
 
-        Particle.prototype.draw = function() {
-            cxt.beginPath();
-            cxt.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-            cxt.fillStyle = this.color;
-            cxt.fill();
-            cxt.closePath();
+        Particle.prototype.draw = function () {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+            ctx.fillStyle = this.color;
+            ctx.fill();
+            ctx.closePath();
         };
 
         function getRandomColor() {
-            const r = Math.floor(Math.random() * 256);
-            const g = Math.floor(Math.random() * 256);
-            const b = Math.floor(Math.random() * 256);
-            return `rgba(${r}, ${g}, ${b}, 0.8)`;
+            const hue = Math.floor(Math.random() * 360);
+            return `hsla(${hue}, 100%, 50%, 0.8)`;
         }
 
         function initializeParticles() {
@@ -65,12 +63,12 @@ const Snowfall = () => {
         }
 
         function animate() {
-            cxt.clearRect(0, 0, width, height);
+            ctx.clearRect(0, 0, width, height);
             particles.forEach(particle => {
                 particle.update();
                 particle.draw();
-        });
-        animationFrameId = requestAnimationFrame(animate);
+            });
+            animationFrameId = requestAnimationFrame(animate);
         }
 
         initializeParticles();
@@ -86,3 +84,4 @@ const Snowfall = () => {
 };
 
 export default Snowfall;
+
