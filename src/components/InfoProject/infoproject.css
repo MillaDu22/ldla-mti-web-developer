@@ -73,6 +73,7 @@
     border-radius:10px;
     height: 315px;
     box-shadow: 0 5px 10px 1px rgba(255, 255, 255, 0.2);
+    z-index: 999999999999;
 }
 
 .container-mots-cles {

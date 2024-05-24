@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap");
-@font-face {
-  font-family: "Oranienbaum";
-  src: url("../../assets/fonts/Oranienbaum.ttf") format("truetype");
-}
+
 .carousel:hover .container-arrows .left {
   display: block;
 }

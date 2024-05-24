@@ -1,0 +1,52 @@
+.container-canvas-paint {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+#canv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:100%;
+    left:0;
+    top:0;
+    height:100%;
+    background: black;
+}
+
+.text-canvas-paint {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    bottom:5%;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    #canv {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height:100%;
+        background: black;
+    }
+}
+
+

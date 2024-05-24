@@ -22,13 +22,13 @@ const CircleSkillBarHtml = ({percentage}) => {
         };
         const restartAnimation = () => {
             const restartInterval = setInterval(() => {
-                setProgress(0); // Réinitialise le progrès à 0
-                fillProgress(); // Redémarre l'animation
-            }, 15000); // Toutes les 15 secondes
+                setProgress(0); // Réinitialise le progrès à 0 //
+                fillProgress(); // Redémarre l'animation //
+            }, 15000); // Toutes les 15 secondes //
 
             return () => clearInterval(restartInterval);
         };
-        // Appel de la fonction de remplissage progressif au chargement de la page
+        // Appel de la fonction de remplissage progressif au chargement de la page //
         fillProgress();
         restartAnimation();
     }, [percentage]);
@@ -36,7 +36,7 @@ const CircleSkillBarHtml = ({percentage}) => {
     const circleStyle = {
         background: `conic-gradient(#ffa500 ${progress}%, #fff ${progress}%)`,
     };
-    const roundedProgress = Math.round(progress) // Pour éviter les décimals
+    const roundedProgress = Math.round(progress) // Pour éviter les décimals //
     return (
         <div className="circular-skill-bar">
             <h3 className="titre-skill">Html</h3>

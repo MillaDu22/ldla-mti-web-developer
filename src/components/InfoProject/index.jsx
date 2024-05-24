@@ -7,6 +7,7 @@ import Tag from '../Tag/index';
 import Slider from '../../components/Slider/index';
 import LienCode from "../LienCode/index";
 import LienSite from "../LienSite/index";
+import BackBubbles from "../BackBubbles/index";
 import CircleSkillHtml from "../CircleSkillHtml/indexHtml";
 import CircleSkillCss from "../CircleSkillCss/indexCss";
 import CircleSkillJs from '../CircleSkillJs/indexJs';
@@ -19,7 +20,7 @@ const InfoProject = () => {
 
     useEffect(() => {
         if (!ficheProjet) {
-            // Si le projet pas trouvé, redirige vers la page d'erreur après le rendu initial
+            // Si le projet pas trouvé, redirige vers la page d'erreur après le rendu initial //
             navigate('/error');
         }
     }, [ficheProjet, navigate]);
@@ -51,6 +52,7 @@ const InfoProject = () => {
                         </div>
                     </div>
                 </div>
+                <BackBubbles />
                 <div className="box-title-circleskill">
                     <h3 className="titre-circle-skill-box">Niveaux d'utilisation des technologies sur ce projet</h3>
                     <div className= "container-circle-skill">

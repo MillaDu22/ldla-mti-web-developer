@@ -4,7 +4,7 @@ import './CircleSkillJs.css';
 const CircleSkillBarJs = ({percentage}) => {
     const [progress3, setProgress3] = useState(0);
     useEffect(() => {
-    // Fonction pour le remplissage progressif
+    // Fonction pour le remplissage progressif //
         const fillProgress3 = () => {
             let currentProgress3 = 0;
             const targetProgress3 = percentage; 
@@ -21,13 +21,13 @@ const CircleSkillBarJs = ({percentage}) => {
         };
         const restartAnimation3 = () => {
             const restartInterval = setInterval(() => {
-                setProgress3(0); // Réinitialise le progrès à 0
-                fillProgress3(); // Redémarre l'animation
-            }, 15000); // Toutes les 15 secondes
+                setProgress3(0); // Réinitialise le progrès à 0 //
+                fillProgress3(); // Redémarre l'animation //
+            }, 15000); // Toutes les 15 secondes //
 
             return () => clearInterval(restartInterval);
         };
-        // Appel de la fonction de remplissage progressif au chargement de la page
+        // Appel de la fonction de remplissage progressif au chargement de la page //
         fillProgress3();
         restartAnimation3();
     }, [percentage]);

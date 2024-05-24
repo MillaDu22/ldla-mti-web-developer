@@ -1,6 +1,5 @@
 import "./banniere.css";
 
-
 function Banniere () {
     return(
         <div className="banniere">

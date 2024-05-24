@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
+import CanvasWaves from "../CanvasWaves/index";
+import CanvasPaint from "../CanvasPaint/index";
 import "./carousel.scss";
 
 function Carousel(){
@@ -48,8 +50,17 @@ function Carousel(){
                     <h4 className="text-anim">Pure Css Text Animation Effect</h4>
                 </div>
             )
-        }
-        
+        },
+        {
+            id:5, content: (
+                <CanvasWaves />
+            )
+        },
+        {
+            id:6, content: (
+                <CanvasPaint />
+            )
+        },
     ];
 
     // Function to handle next slide //

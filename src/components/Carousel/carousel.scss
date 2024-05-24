@@ -151,17 +151,7 @@ display: block;
         align-items:center;
         flex-direction:$direction;
     }
-
-    body{
-        margin:0;
-        padding:0;
-        height:100vh;
-        @include flexBox(row);
-        background:black;
-        justify-content:space-around;
-        overflow:hidden;
-    }
-
+    
     section{
         width:$sectionWH;
         height:$sectionWH;
@@ -293,6 +283,10 @@ display: block;
         }
     }
     @media (max-width:768px){
+        .title-react{
+            text-align: center;
+            width: 100%;
+        }
 
             section{
             margin-top:0;
@@ -440,18 +434,6 @@ display: block;
     }
 }
 //////////////////////////////*Bubbles*///////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 

@@ -39,10 +39,12 @@
 }
 
 #timeline ul{
+  position: relative;
   overflow: hidden;
   width:98%;
   min-width: 320px;
   height: 100%;
+  z-index: 1;
 }
 
 #timeline p {
@@ -53,7 +55,6 @@
   color: white;
   font-family: 'Ysabeau SC', sans-serif;
 }
-
 
 .card-info {
   opacity: 0;
@@ -74,15 +75,13 @@
 
 .box {
   position: relative;
-  padding: 0%; /* Assurez-vous que la position de la boîte est relative pour que la description soit positionnée par rapport à elle */
+  padding: 0%; 
 }
 
 .box:hover .card-info {
   opacity: 1;
   visibility: visible;
 }
-
-
 
 #timeline ul {
   padding: 50px 10px 50px 10px;
