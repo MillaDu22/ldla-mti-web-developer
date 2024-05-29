@@ -1,12 +1,12 @@
 import React from 'react';
 import './backStars.css'; 
 
-const InfinityComponent = () => {
+const BackStars = () => {
     return (
-        <div className="container-infinity">
-        <div className="infinity"></div>
-        </div>
+        <section className="container-backstars">
+            <div className="infinity"></div>
+        </section>
     );
 };
 
-export default InfinityComponent;
+export default BackStars;
