@@ -8,7 +8,7 @@
     padding:0;
 }
 
-.container-skillbar, .titre-bar-moyennes, .Banner, .Carousel, .TimeLine, .container-header {
+.container-skillbar, .titre-bar-moyennes, .banner, .carousel, .TimeLine, .container-header {
     position: relative;
     z-index: 1; 
 }

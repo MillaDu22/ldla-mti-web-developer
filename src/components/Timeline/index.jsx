@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import datasProjects from '../../DatasProjects/datasProjects.json';
-//import CanvasPolygon from "../CanvasPolygon/index";
+import BackStars from "../BackStars/index";
 import "./timeline.css";
 
 const Timeline = () => {
@@ -31,7 +31,9 @@ const Timeline = () => {
     return (
         <section id="timeline">
             <h2 className="heading">Portfolio</h2>
-            {/*<CanvasPolygon />*/}
+            <>
+                <BackStars />
+            </>
             <ul>
                 {datasProjects.map((project) => (
                     <li key={project.id}>

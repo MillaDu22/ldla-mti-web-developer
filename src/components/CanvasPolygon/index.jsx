@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useMemo } from 'react';
 import "./canvasPolygon.css";
 
-const CanvasPaint = () => {
+const CanvasPolygon = () => {
     const canvasRef = useRef(null);
     const ctxRef = useRef(null);
     const tickRef = useRef(0);
@@ -156,4 +156,4 @@ const CanvasPaint = () => {
     );
 };
 
-export default CanvasPaint;
+export default CanvasPolygon;
