@@ -48,6 +48,32 @@ display: block;
         height:60px;
     }
 
+    .title-carousel {
+        color: white;
+        letter-spacing: 6px;
+        margin-bottom: 20px;
+        background: black;
+        position: relative;
+        animation-name: text;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes text {
+        0% {
+            color: black;
+        }
+        30% {
+            letter-spacing: 16px;
+        }
+        85% {
+            letter-spacing: 6px;
+        }
+        100% {
+            letter-spacing: 6px;
+        }
+    }
+
     .slide {
         display: flex;
         flex-direction: column;

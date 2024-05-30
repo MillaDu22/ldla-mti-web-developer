@@ -4,7 +4,7 @@ import "./certif.css";
 function Certif() {
     return (
         <div className="container-certif">
-            <h4 className="heading">Mes certifications</h4>
+            <h4 className="heading">Certifications</h4>
             <ol className="alternating-colors">
                 <li className="li-certif">
                     <strong>Les métiers de développeur</strong>

@@ -39,7 +39,7 @@ const InfoProject = () => {
         <>
         {ficheProjet ? (
             <div className= 'info-projet-box'>
-                <h2 className ="title">{ ficheProjet?.title }</h2>
+                <h2 className ="title-info-project">{ ficheProjet?.title }</h2>
                 <div className="display-row">
                     <div className="box-slider-infos">
                         <Slider images = {ficheProjet?.photos}/>

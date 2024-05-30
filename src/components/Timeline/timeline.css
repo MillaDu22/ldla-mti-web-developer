@@ -7,6 +7,33 @@
   font-family: 'Ysabeau SC', sans-serif;
 }
 
+
+.heading {
+  color: white;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+  background: black;
+  position: relative;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text {
+  0% {
+    color: black;
+  }
+  30% {
+    letter-spacing: 16px;
+  }
+  85% {
+    letter-spacing: 6px;
+  }
+  100% {
+    letter-spacing: 6px;
+  }
+}
+
 .title-time {
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
   padding: 1rem 0rem 1rem 0.7rem;
