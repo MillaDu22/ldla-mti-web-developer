@@ -18,6 +18,10 @@
 }
 
 .skill-level {
+    display: flex;
+    flex-direction: row;
+    overflow-x: visible;
+    flex-wrap: nowrap;
     height: 100%;
     width: 0;
     line-height: 20px;
