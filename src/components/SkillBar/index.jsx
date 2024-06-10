@@ -34,7 +34,7 @@ const SkillBar = ({ skillName, percentage }) => {
         <div className="skill">
             <div className="skill-name">{skillName}</div>
             <div className="skill-bar">
-                <div className="skill-level" style={{ width: `${progress4}%` }}>
+                <div className="skill-level" style={{ width: `${Math.round(progress4)}%` }}>
                     {Math.round(progress4)}%
                 </div>
             </div>
