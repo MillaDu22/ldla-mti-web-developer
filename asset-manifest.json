@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ldla-mti-web-developer/static/css/main.d59af309.css",
+    "main.css": "/ldla-mti-web-developer/static/css/main.1e412f37.css",
     "main.js": "/ldla-mti-web-developer/static/js/main.c556b8e0.js",
     "static/js/453.4fb7cf09.chunk.js": "/ldla-mti-web-developer/static/js/453.4fb7cf09.chunk.js",
     "static/media/cv-lmarti-2024.pdf": "/ldla-mti-web-developer/static/media/cv-lmarti-2024.194d88541329b7c255a5.pdf",
@@ -9,12 +9,12 @@
     "static/media/britain-logo.webp": "/ldla-mti-web-developer/static/media/britain-logo.fcb245e4236a9c1de19e.webp",
     "static/media/photo-moi.webp": "/ldla-mti-web-developer/static/media/photo-moi.91ef79723d60e8dfc21a.webp",
     "index.html": "/ldla-mti-web-developer/index.html",
-    "main.d59af309.css.map": "/ldla-mti-web-developer/static/css/main.d59af309.css.map",
+    "main.1e412f37.css.map": "/ldla-mti-web-developer/static/css/main.1e412f37.css.map",
     "main.c556b8e0.js.map": "/ldla-mti-web-developer/static/js/main.c556b8e0.js.map",
     "453.4fb7cf09.chunk.js.map": "/ldla-mti-web-developer/static/js/453.4fb7cf09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d59af309.css",
+    "static/css/main.1e412f37.css",
     "static/js/main.c556b8e0.js"
   ]
 }
