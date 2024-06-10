@@ -19,7 +19,15 @@ const SkillBar = ({ skillName, percentage }) => {
                 setProgress(currentProgress);
             }, 10);
         };
-        fillProgress(); // Appel initial du remplissage progressif//      
+        fillProgress(); // Appel initial du remplissage progressif// 
+        const restartAnimation = () => {
+            const restartInterval = setInterval(() => {
+                setProgress(0); // Réinitialise la progrèss à 0
+                fillProgress(); // Redémarre l'animation
+            }, 15000); // Toutes les 15 secondes
+            return () => clearInterval(restartInterval);
+        };
+        restartAnimation(); // Appel initial du redémarrage de l'animation     
     }, [percentage]);
 
     return (
