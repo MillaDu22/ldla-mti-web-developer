@@ -14,10 +14,10 @@ function Home() {
             <TimeLine />
             <div className="container-skillbar">
                 <h3 className= "titre-bar-moyennes">Moyennes d'utilisation des technologies sur l'ensemble des projets</h3>
-                <SkillBar skillName="HTML" percentage={11.95} />
-                <SkillBar skillName="CSS" percentage={23.92} />
-                <SkillBar skillName="Sass" percentage={5.59} />
-                <SkillBar skillName="JavaScript" percentage={58.54} />
+                <SkillBar skillName="HTML" percentage={12} />
+                <SkillBar skillName="CSS" percentage={24} />
+                <SkillBar skillName="Sass" percentage={6} />
+                <SkillBar skillName="JavaScript" percentage={59} />
             </div>
         </div>
     );
