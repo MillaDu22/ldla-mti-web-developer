@@ -1,6 +1,7 @@
 import React from 'react';
 import Banniere from "../../components/Banniere/index";
 import Features from "../../components/Features/index" ;
+import Rncp from '../../components/Rncp/index';
 import Certif from "../../components/Certif/index";
 import CanvasSnowfall from "../../components/CanvasSnowfall/index";
 import './about.css';
@@ -10,6 +11,7 @@ function About() {
         <div className= "AProposPage">
             <CanvasSnowfall />
             <Banniere />
+            <Rncp text = "Voir*le*titre*de*développeur*" />
             <Certif />
             <Features/>
         </div>
