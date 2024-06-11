@@ -1,5 +1,6 @@
 .link-rncp {
     text-decoration: none;
+    padding-bottom:30px;
 }
 
 .emblem {
@@ -35,6 +36,13 @@
     }
     100% {
         transform: rotateZ(0deg);
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .link-rncp {
+        display: none;
+        padding-bottom: 70px;
     }
 }
 

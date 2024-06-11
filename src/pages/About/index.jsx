@@ -11,7 +11,7 @@ function About() {
         <div className= "AProposPage">
             <CanvasSnowfall />
             <Banniere />
-            <Rncp text = "Voir*le*titre*de*développeur*" />
+            <Rncp text = "Titre*web*developer*" />
             <Certif />
             <Features/>
         </div>
