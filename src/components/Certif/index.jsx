@@ -8,7 +8,7 @@ function Certif() {
             <ol className="alternating-colors">
                 <li className="li-certif">
                     <strong>Les métiers de développeur</strong>
-                    <p><a className= "lien-certif" href = "https://openclassrooms.com/fr/course-certificates/3972278678" target="blank">Voir le certificat</a></p>
+                    <p><a className= "lien-certif" href = "https://drive.google.com/file/d/1rznzK3JjMtfxFvMvjxb4NJp7_TZvOGcv/view?usp=sharing" target="blank">Voir le certificat</a></p>
                 </li>
                 <li className="li-certif">
                     <strong>Creer un site web avec HTML5 et CSS3</strong>
