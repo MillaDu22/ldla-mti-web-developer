@@ -268,5 +268,27 @@
 		"js": 72,
 		"iconClass": "fa-react",
 		"tagCover": "React"
+	},
+	{
+		"id": "13",
+		"title": "Fullstack",
+		"informations": "Passage d'une application React frontend à fullstack... Lire +. ",
+		"description": "Passage d'une application React frontend à fullstack sur un ancien portofolio avec NodeJs, Express et MongoDB. Déploiement du backend avec alwaysData.",
+		"code": ["https://github.com/MillaDu22/lmarti-web-development-fullstack"],
+		"site": ["https://milladu22.github.io/lmarti-web-development-fullstack/"],
+		"Tags": ["NodeJs", "MongoDB/Express", "AlwaysData" ],
+		"alt": "photo site portfolio fullstack",
+		"cover": "https://i.ibb.co/58z26BL/Cover-portfolio-fullsttack.webp",
+		"photos":[
+			"https://i.ibb.co/tYryRKx/Home-Desktop-front.webp",
+			"https://i.ibb.co/XDdzd6L/About-Desktop-front.webp",
+			"https://i.ibb.co/rcQV0Hg/Home-Mobile-portrait.webp",
+			"https://i.ibb.co/hZGJrbd/About-Mobile-portrait.webp"
+		],
+		"html": 1,
+		"css": 34,
+		"js": 65,
+		"iconClass": "fa-react",
+		"tagCover": "React"
 	}
 ]
