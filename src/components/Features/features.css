@@ -150,6 +150,21 @@ i:hover {
     color: white;
 }
 
+.fa-database {
+    color:palevioletred;
+}
+
+.mongo {
+    color:green;
+}
+
+.fa-server {
+    color:white;
+}
+
+.fa-docker {
+    color:dodgerblue;
+}
 
 @keyframes vibrate {
     0%, 100% { transform: translateX(0); }
@@ -213,6 +228,34 @@ i:hover {
 
 .container-icons .container-name-icon:nth-child(13) {
     animation-delay: 26s;
+}
+
+.container-icons .container-name-icon:nth-child(14) {
+    animation-delay: 28s;
+}
+
+.container-icons .container-name-icon:nth-child(15) {
+    animation-delay: 30s;
+}
+
+.container-icons .container-name-icon:nth-child(16) {
+    animation-delay: 32s;
+}
+
+.container-icons .container-name-icon:nth-child(17) {
+    animation-delay: 34s;
+}
+
+.container-icons .container-name-icon:nth-child(18) {
+    animation-delay: 36s;
+}
+
+.container-icons .container-name-icon:nth-child(19) {
+    animation-delay: 38s;
+}
+
+.container-icons .container-name-icon:nth-child(20) {
+    animation-delay: 40s;
 }
 
 @media screen and (max-width:768px) {

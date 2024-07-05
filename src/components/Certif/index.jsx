@@ -83,6 +83,10 @@ function Certif() {
                     <p><a className= "lien-certif" href = "https://drive.google.com/file/d/1GmNMiPDk8iIRnnk8SY9m_4rJXgjLYcXa/view?usp=sharing" target="blank">Voir le certificat</a></p>
                 </li>
                 <li className="li-certif">
+                    <strong>Optimiser le déploiement en créant des conteneurs avec Docker</strong>
+                    <p><a className= "lien-certif" href = "https://drive.google.com/file/d/1fCtzmAhSuxaIEshcxODUd0hTx16xcJD1/view?usp=sharing" target="blank">Voir le certificat</a></p>
+                </li>
+                <li className="li-certif">
                     <strong>Appliquer les principes du Green IT dans mon entreprise</strong>
                     <p><a className= "lien-certif" href = "https://drive.google.com/file/d/1O8rcUhXBF0qT9fU1x0nOw2CoZfKaK8vV/view?usp=sharing" target="blank">Voir le certificat</a></p>
                 </li>

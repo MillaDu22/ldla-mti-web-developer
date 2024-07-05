@@ -54,6 +54,22 @@ function Features () {
                     <p className="name-icon">Figma</p>
                 </span>
                 <span className ="container-name-icon vibrate">
+                    <i className="fa-solid fa-database"></i>
+                    <p className="name-icon">AlwaysData</p>
+                </span>
+                <span className ="container-name-icon vibrate">
+                    <i className="fa-solid fa-server"></i>
+                    <p className="name-icon">Express</p>
+                </span>
+                <span className ="container-name-icon vibrate">
+                    <i className="fa-solid fa-database mongo"></i>
+                    <p className="name-icon">MongoDB</p>
+                </span>
+                <span className ="container-name-icon vibrate">
+                    <i className="fa-brands fa-docker"></i>
+                    <p className="name-icon">Docker</p>
+                </span>
+                <span className ="container-name-icon vibrate">
                     <i className="fa-brands fa-slack"></i>
                     <p className="name-icon">Slack</p>
                 </span>
