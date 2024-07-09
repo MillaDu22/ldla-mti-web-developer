@@ -290,5 +290,33 @@
 		"js": 65,
 		"iconClass": "fa-react",
 		"tagCover": "React"
+	},
+	{
+		"id": "14",
+		"title": "Docker",
+		"informations": "Optimisation de mon deploiement avec des conteneurs Docker... Lire +. ",
+		"description": "Utilisation de fixtures Node pour le peuplement DB Mongo en local. Optimisation de mon deploiement React app: AlwaysData, Express, Mongo/backend et Node/frontend avec des conteneurs Docker.",
+		"code": ["https://github.com/MillaDu22/lmarti-web-development-fullstack-docker"],
+		"site": ["https://milladu22.github.io/lmarti-web-development-fullstack-docker/"],
+		"Tags": ["Docker", "MongoDB/Express", "Node" ],
+		"alt": "photo site portfolio fullstack-Docker",
+		"cover": "https://i.ibb.co/Lvs9Z3T/Cover-Docker.webp",
+		"photos":[
+			"https://i.ibb.co/XDdzd6L/About-Desktop-front.webp",
+			"https://i.ibb.co/mvy395k/Populate-DB.webp",
+			"https://i.ibb.co/ySC3fYP/Dockerfileimagesfrontend.webp",
+			"https://i.ibb.co/rfpqkGK/dockerfileimagesbackend.webp",
+			"https://i.ibb.co/s3D4tNj/Docker-Hub.webp",
+			"https://i.ibb.co/qmPSN0S/Terminalfrontend.webp",
+			"https://i.ibb.co/Sn3QbMh/Terminalbackend.webp",
+			"https://i.ibb.co/s6p02rY/Terminalbackend-copie.webp",
+			"https://i.ibb.co/BgD87Lf/Docker-Desktop-Images.webp",
+			"https://i.ibb.co/Fmns0R8/Docker-Desktop-Container.webp"
+		],
+		"html": 1,
+		"css": 29,
+		"js": 70,
+		"iconClass": "fa-react",
+		"tagCover": "React"
 	}
 ]
