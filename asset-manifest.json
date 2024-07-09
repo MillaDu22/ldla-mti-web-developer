@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ldla-mti-web-developer/static/css/main.d3ff8e37.css",
-    "main.js": "/ldla-mti-web-developer/static/js/main.19d2ee4c.js",
+    "main.js": "/ldla-mti-web-developer/static/js/main.19f6fccf.js",
     "static/js/453.4fb7cf09.chunk.js": "/ldla-mti-web-developer/static/js/453.4fb7cf09.chunk.js",
     "static/media/cv-lmarti-2024.pdf": "/ldla-mti-web-developer/static/media/cv-lmarti-2024.f4a95817fae0046fc8f6.pdf",
     "static/media/Boheme Floral.ttf": "/ldla-mti-web-developer/static/media/Boheme Floral.0345ab604f426031d363.ttf",
@@ -10,11 +10,11 @@
     "static/media/photo-moi.webp": "/ldla-mti-web-developer/static/media/photo-moi.91ef79723d60e8dfc21a.webp",
     "index.html": "/ldla-mti-web-developer/index.html",
     "main.d3ff8e37.css.map": "/ldla-mti-web-developer/static/css/main.d3ff8e37.css.map",
-    "main.19d2ee4c.js.map": "/ldla-mti-web-developer/static/js/main.19d2ee4c.js.map",
+    "main.19f6fccf.js.map": "/ldla-mti-web-developer/static/js/main.19f6fccf.js.map",
     "453.4fb7cf09.chunk.js.map": "/ldla-mti-web-developer/static/js/453.4fb7cf09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3ff8e37.css",
-    "static/js/main.19d2ee4c.js"
+    "static/js/main.19f6fccf.js"
   ]
 }
