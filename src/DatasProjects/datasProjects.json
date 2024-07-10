@@ -317,5 +317,27 @@
 		"js": 70,
 		"iconClass": "fa-react",
 		"tagCover": "React"
+	},
+	{
+		"id": "15",
+		"title": "LM Photography",
+		"informations": "Implémentation de mon site de photographie avec React... Lire +. ",
+		"description": "Implémentation de mon site de photographie avec React, React-Router pour le routage vers les differentes pages et datas sous format json. Gallerie Css 'grid' pour les differents formats d'images. Images optimisées pour le web et hebergées en ligne. 4 pages: home, about, diaporama + la page individuelle photo.",
+		"code": ["https://github.com/MillaDu22/lmarti-photographer"],
+		"site": ["https://milladu22.github.io/lmarti-photographer/"],
+		"Tags": ["React", "React-Router"],
+		"alt": "photo site ludmilla marti photographer",
+		"cover": "https://i.ibb.co/K6CTvh6/Galeriehome.webp",
+		"photos":[
+			"https://i.ibb.co/Sn8cdhW/Home-Page-front.webp",
+			"https://i.ibb.co/gm5WkC7/About-Page-front.webp",
+			"https://i.ibb.co/CnF1sSW/Diapo-Page-front.webp",
+			"https://i.ibb.co/vYZBwqM/Individual-Image-front.webp"
+		],
+		"html": 5,
+		"css": 59,
+		"js": 36,
+		"iconClass": "fa-react",
+		"tagCover": "React"
 	}
 ]
