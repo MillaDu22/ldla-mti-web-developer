@@ -6,9 +6,10 @@ function VisitCounter() {
   useEffect(()=> {
     const storedCount = localStorage.getItem("pageVisits");
     const initialCount = Number(storedCount) || 0;
-    setCount(initialCount +1);
-    localStorage.setItem("pageVisit", initialCount +1);
-  },[]);
+    setCount(initialCount + 1);
+    localStorage.setItem("pageVisits", initialCount + 1);
+  }, []);
+  
   return <div className="visit-counter">
             <i className="fa-solid fa-eye"></i>
             <p id="visits">{count}</p>
