@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from "../src/components/Header/index.jsx";
 import Footer from "../src/components/Footer/index.jsx";
+import VisitCounter from "../src/components/VisitCounter/index.jsx";
 import Router from "./Router/router.jsx";
 import { HashRouter } from "react-router-dom";
 
@@ -13,6 +14,7 @@ root.render(
         <HashRouter>
           <Header />
           <Router />
+          <VisitCounter />
           <Footer />
         </HashRouter>
   </React.StrictMode>
