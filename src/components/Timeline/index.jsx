@@ -39,14 +39,16 @@ const Timeline = () => {
                     <li key={project.id}>
                         <i className={`fa-brands ${project.iconClass}`}></i>
                         <div className="box">
-                            <Link to={`/projet/${project.id}`} className="card-link">
-                                <img src={project.cover} alt={project.alt} className="card-image" />
-                                <h3 className="title-time">
-                                    <span className="year">{project.tagCover}</span>
-                                    {project.title}
-                                </h3>
-                                <p className="card-info">{project.informations}</p>
-                            </Link>
+                            <div className="shadow-card-timeline">
+                                <Link to={`/projet/${project.id}`} className="card-link">
+                                    <img src={project.cover} alt={project.alt} className="card-image" />
+                                    <h3 className="title-time">
+                                        <span className="year">{project.tagCover}</span>
+                                        {project.title}
+                                    </h3>
+                                    <p className="card-info">{project.informations}</p>
+                                </Link>
+                            </div>
                         </div>
                     </li>
                 ))}

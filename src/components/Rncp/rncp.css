@@ -15,6 +15,15 @@
     color: aqua;
     animation: spinZ 20s linear infinite;
     text-align: center;
+    background: #080808;
+    box-shadow: 0 15px 15px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+    inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
+    0 0 0 5.5px #080808;
+    padding: 0px;
+}
+
+.emblem:hover {
+    box-shadow:  inset 2px 2px 5px #141414, inset -5px -5px 10px #212121;
 }
 
 .emblem span {

@@ -24,7 +24,7 @@
 		"id": "2",
 		"title": "Ohmyfood!",
 		"informations": "Amélioration de l'interface d'un site mobile avec des animations CSS... Lire +.",
-		"Tags": ["Html5", "Css3", "Sass"],
+		"Tags": ["Html5", "Css3/Sass"],
 		"description": "Amélioration de l'interface d'un site mobile avec des animations CSS. En version mobile-first, tablette et desktop, à partir de maquettes figma fournies par le designer.",
 		"code": ["https://github.com/MillaDu22/Ohmyfood-"],
 		"site": ["https://milladu22.github.io/Ohmyfood-/"],
@@ -49,7 +49,7 @@
 		"informations": "Création d'une page web dynamique avec JavaScript... Lire +.",
 		"description": "Création de la page web dynamique de l'architecte avec JavaScript. Récupération des travaux sur l'API et mise en place d'une modale d'ajout et de supression des projets. Filtrage de la gallerie par catégories de travaux.",
 		"code": ["https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel"],
-		"Tags": ["Html5", "Css3", "JavaScript"],
+		"Tags": ["Html5/Css3/JavaScript"],
 		"alt": "photo site architecte Sophie Bluel",
 		"cover": "https://i.ibb.co/HVNGkq1/cover-SBluel.webp",
 		"photos": [
@@ -117,7 +117,7 @@
 		"informations": "Implémentation du front-end d'une application bancaire avec React... Lire +.",
 		"description": "Projet de base en Html & Css convertit en React. Authentification et possibilité de gérer le profil par l'utilisateur. Rédaction de la documentation transactions décrivant les routes API suivant les directives Swagger.",
 		"code": ["https://github.com/MillaDu22/ArgentBank-website"],
-		"Tags": [" React/React-router/React-redux"],
+		"Tags": [" React", "Redux"],
 		"alt": "Photo site Argent Bank",
 		"cover": "https://i.ibb.co/YB5Bsw5/AG.webp",
 		"photos": [
@@ -142,7 +142,7 @@
 		"description": "Création de la landing page d'une PME spécialisée dans les concours de jeux. Mon travail consistait à ajouter le code JavaScript manquant pour que le formulaire soit pleinement fonctionnel.",
 		"code": ["https://github.com/MillaDu22/GameOn-website-FR"],
 		"site": ["https://milladu22.github.io/GameOn-website-FR/"],
-		"Tags": ["Html5", "Css3", "JavaScript"],
+		"Tags": ["Html5/Css3/JavaScript"],
 		"alt": "photo site GameOn",
 		"cover": "https://i.ibb.co/znhRhGj/Game-On-cover.webp",
 		"photos":[
@@ -164,7 +164,7 @@
 		"description": "Création d'un site accessible pour une plateforme de photographes. Pour résumer, mon objectif a été de construire un prototype fonctionnel du nouveau site web FishEye. La priorité absolue a été l'accessibilité. ",
 		"code": ["https://github.com/MillaDu22/Front-End-Fisheye"],
 		"site": ["https://milladu22.github.io/Front-End-Fisheye/"],
-		"Tags": ["Html5", "Css3", "JavaScript"],
+		"Tags": ["Html5/Css3/JavaScript"],
 		"alt": "photo site FishEye",
 		"cover": "https://i.ibb.co/9HWwXJw/cover-fisheye.webp",
 		"photos":[
@@ -190,7 +190,7 @@
 		"description": "Développement d'algorithmes de recherche en JavaScript. Ce projet m'a mise au défi de développer un algorithme de recherche efficace pour une plateforme de recettes de cuisine.",
 		"code": ["https://github.com/MillaDu22/Les-petits-plats"],
 		"site": [" https://milladu22.github.io/Les-petits-plats/"],
-		"Tags": ["Html5", "Css3", "JavaScript", "Bootstrap5"],
+		"Tags": ["Html5/Css3/JavaScript", "Bootstrap5"],
 		"alt": "photo site les petits plats",
 		"cover": "https://i.ibb.co/cQ9Snpd/pp.webp",
 		"photos":[
@@ -212,7 +212,7 @@
 		"informations": "Déboggage et tests d'un SaaS RH... Lire +. ",
 		"description": "Déboggage et tests d'un SaaS RH. Bills-app est une application de notes de frais qui présentait des bugs. Il y a deux parcours utilisateurs : un administrateur RH et un employé. Je devais donc débogger et implementer des tests pour l'application.",
 		"code": ["https://github.com/MillaDu22/bills-app"],
-		"Tags": ["Html5", "Css3", "JavaScript", "Jest"],
+		"Tags": ["Html5/Css3/JavaScript", "Jest"],
 		"alt": "photo site Bills app",
 		"cover": "https://i.ibb.co/vsgkR9t/billed.webp",
 		"photos":[
@@ -230,7 +230,7 @@
 		"informations": "Développement d'un tableau de bord d'analytics avec React... Lire +. ",
 		"description": "Développement d'un tableau de bord d'analytics avec React. Les graphiques ont été impléméntés avec la librairie Recharts.",
 		"code": ["https://github.com/MillaDu22/sportsee"],
-		"Tags": ["React", "Recharts", "Axios", "Sass"],
+		"Tags": ["React", "Recharts", "Axios"],
 		"alt": "photo site SportSee",
 		"cover": "https://i.ibb.co/C1Tb00M/cover-sportsee.webp",
 		"photos":[
@@ -252,7 +252,7 @@
 		"description": "Passage d'une librairie JQuery vers React. Impléméntation et utilisation de mon propre composant react publié sur npm. Conversion de l'application totale. Mise en place d'un router et d'un state global.",
 		"code": ["https://github.com/MillaDu22/rhnet-wealth-health"],
 		"site": ["https://milladu22.github.io/rhnet-wealth-health/"],
-		"Tags": ["React", "React-Router", " Npm", "Redux" ],
+		"Tags": ["React/Redux/npm"],
 		"alt": "photo site Wealth Health",
 		"cover": "https://i.ibb.co/M15BNT1/RH.webp",
 		"photos":[
@@ -276,7 +276,7 @@
 		"description": "Passage d'une application React frontend à fullstack sur un ancien portofolio avec NodeJs, Express et MongoDB. Déploiement du backend avec alwaysData.",
 		"code": ["https://github.com/MillaDu22/lmarti-web-development-fullstack"],
 		"site": ["https://milladu22.github.io/lmarti-web-development-fullstack/"],
-		"Tags": ["NodeJs", "MongoDB/Express", "AlwaysData" ],
+		"Tags": ["MongoDB/Express", "AlwaysData" ],
 		"alt": "photo site portfolio fullstack",
 		"cover": "https://i.ibb.co/58z26BL/Cover-portfolio-fullsttack.webp",
 		"photos":[
@@ -295,10 +295,10 @@
 		"id": "14",
 		"title": "Docker",
 		"informations": "Optimisation de mon deploiement avec des conteneurs Docker... Lire +. ",
-		"description": "Utilisation de fixtures Node pour le peuplement DB Mongo en local. Optimisation de mon deploiement React app: AlwaysData, Express, Mongo/backend et Node/frontend avec des conteneurs Docker.",
+		"description": "Fixtures Node pour le peuplement DB Mongo en local et optimisation d'un deploiement React: AlwaysData, Express, Mongo et Node avec des conteneurs Docker.",
 		"code": ["https://github.com/MillaDu22/lmarti-web-development-fullstack-docker"],
 		"site": ["https://milladu22.github.io/lmarti-web-development-fullstack-docker/"],
-		"Tags": ["Docker", "MongoDB/Express", "Node" ],
+		"Tags": ["Docker", "MongoDB/Express"],
 		"alt": "photo site portfolio fullstack-Docker",
 		"cover": "https://i.ibb.co/Lvs9Z3T/Cover-Docker.webp",
 		"photos":[
@@ -322,7 +322,7 @@
 		"id": "15",
 		"title": "Ldla-Mti-Lens",
 		"informations": "Implémentation de mon site de photographie avec React... Lire +. ",
-		"description": "Implémentation de mon site de photographie avec React, React-Router pour le routage vers les differentes pages et datas sous format json. Gallerie Css 'grid' pour les differents formats d'images. Images optimisées pour le web et hebergées en ligne. 4 pages: home, about, diaporama + la page individuelle photo.",
+		"description": "Implémentation de mon site de photographie avec React, React-Router pour le routage vers les differentes pages et datas sous format json. Gallerie Css 'grid' pour les differents formats d'images. Photos optimisées pour le web.",
 		"code": ["https://github.com/MillaDu22/lmarti-photographer"],
 		"site": ["https://milladu22.github.io/lmarti-photographer/"],
 		"Tags": ["React", "React-Router"],

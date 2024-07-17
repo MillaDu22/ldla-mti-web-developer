@@ -10,20 +10,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    color:white;
+    color:black;
+    background: black;
 }
 
-.counter-api {
-    color:white;
+.counterapi {
     font-size:24px;
+    text-decoration: none;
 }
 
-.fa-eye {
-    font-size: 24px;
-}
-
-#visits {
-    font-size: 24px;
-    color:white;
-    margin-left: 0px;
-}

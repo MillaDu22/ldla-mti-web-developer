@@ -31,9 +31,11 @@ const SkillBar = ({ skillName, percentage }) => {
     return (
         <div className="skill">
             <div className="skill-name">{skillName}</div>
-            <div className="skill-bar">
-                <div className="skill-level" style={{ width: `${progress}%` }}>
-                    {percentage}%
+            <div className = "shadow-skill-bar">
+                <div className="skill-bar">
+                    <div className="skill-level" style={{ width: `${progress}%` }}>
+                        {percentage}%
+                    </div>
                 </div>
             </div>
         </div>

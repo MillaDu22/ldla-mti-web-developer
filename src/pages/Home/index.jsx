@@ -13,11 +13,13 @@ function Home() {
             <Carousel />
             <TimeLine />
             <div className="container-skillbar">
+                <div className = "shadow-container-skillbar">
                 <h3 className= "titre-bar-moyennes">Moyennes d'utilisation des technologies sur l'ensemble des projets</h3>
                 <SkillBar skillName="HTML" percentage={10} />
                 <SkillBar skillName="CSS" percentage={22} />
                 <SkillBar skillName="Sass" percentage={5} />
                 <SkillBar skillName="JavaScript" percentage={63} />
+                </div>
             </div>
         </div>
     );

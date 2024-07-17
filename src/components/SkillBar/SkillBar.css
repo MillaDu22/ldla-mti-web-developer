@@ -1,12 +1,35 @@
+.shadow-container-skillbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:98%;
+    background: #080808;
+    box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+    inset 0 4px 25px rgba(149, 149, 149, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
+    0 0 0 5.5px #080808;
+    border-radius: 20px;
+    padding:15px;
+    padding-bottom:40px;
+}
+
 .skill {
     margin-bottom: 20px;
-    width:100%;
+    width:90%;
 }
 
 .skill-name {
     font-weight: bold;
     font-family: 'Ysabeau SC', sans-serif;
     color:white;
+}
+
+.shadow-skill-bar {
+    box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+    inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
+    0 0 0 5.5px #080808;
+    padding:10px;
+    border-radius: 5px;
 }
 
 .skill-bar {
@@ -36,6 +59,13 @@
     font-weight: 900;
     font-family: 'Ysabeau SC', sans-serif;
     transition: width 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .shadow-container-skillbar {
+        box-shadow: none;
+        background: transparent;
+    }
 }
 
 

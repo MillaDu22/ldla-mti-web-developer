@@ -3,7 +3,9 @@ import "./tag.css";
 
 function Tags ({title}) {
     return(
-        <span className="motCle">{title}</span>
+        <div className = "shadow-tag">
+            <span className="motCle">{title}</span>
+        </div>
     )
 }
 export default Tags;

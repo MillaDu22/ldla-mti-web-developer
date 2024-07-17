@@ -122,11 +122,13 @@
     width: 260px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1007px) {
     .container-header {
         width:96%;
-        padding-left:2%;
-        padding-right: 2%;;
+        padding-left:0%;
+        padding-right: 3.5%;
+        margin-left: auto;
+        margin-right:auto ;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -162,10 +164,70 @@
         width:265px;
     }
 
+    .britain {
+        width:65px;
+        height: 65px;
+    }
+
     .subtitle-app {
         font-size: 35px;
-        width: 260px;
-        margin-top:23px;
-        margin-left: 20px;
+        width: 250px;
+        margin-top:5px;
+        margin-left:1px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-header {
+        width:96%;
+        padding-left:0%;
+        padding-right: 2.5%;
+        margin-left: auto;
+        margin-right:auto ;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-containers {
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container-title-france {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:78%;
+    }
+    
+    .title-app {
+        font-size: 32px;
+        width:265px;
+    }
+    
+    .bleu-blanc-rouge {
+        width:265px;
+        margin-top:-20px;
+    }
+    
+    .container-logo-subtitle {
+        width:265px;
+    }
+
+    .britain {
+        width:65px;
+        height: 65px;
+    }
+
+    .subtitle-app {
+        font-size: 35px;
+        width: 250px;
+        margin-top:5px;
+        margin-left:1px;
     }
 }
