@@ -19,7 +19,8 @@
 		"css": 59,
 		"js": 36,
 		"iconClass": "fa-react",
-		"tagCover": "React"
+		"tagCover": "React",
+		"category": "perso"
 	},
 	{
 		"id": "2",
@@ -46,7 +47,8 @@
 		"css": 29,
 		"js": 70,
 		"iconClass": "fa-react",
-		"tagCover": "React"
+		"tagCover": "React",
+		"category": "perso"
 	},
 	{
 		"id": "3",
@@ -68,7 +70,8 @@
 		"css": 34,
 		"js": 65,
 		"iconClass": "fa-react",
-		"tagCover": "React"
+		"tagCover": "React",
+		"category": "perso"
 	},
 	{
 		"id": "4",
@@ -92,7 +95,8 @@
 		"css": 27,
 		"js": 72,
 		"iconClass": "fa-react",
-		"tagCover": "React"
+		"tagCover": "React",
+		"category": "ocr"
 	},
 	{
 		"id": "5",
@@ -113,7 +117,8 @@
 		"css": 10,
 		"js": 87,
 		"iconClass": "fa-react",
-		"tagCover": "React"
+		"tagCover": "React",
+		"category": "ocr"
 	},
 	{
 		"id": "6",
@@ -131,7 +136,8 @@
 		"css": 5,
 		"js": 78,
 		"iconClass": "fa-js",
-		"tagCover": "JavaScript"
+		"tagCover": "JavaScript",
+		"category": "ocr"
 	},
 	{
 		"id": "7",
@@ -154,7 +160,8 @@
 		"css": 30,
 		"js": 63,
 		"iconClass": "fa-js",
-		"tagCover": "JavaScript"
+		"tagCover": "JavaScript",
+		"category": "ocr"
 	},
 	{
 		"id": "8",
@@ -180,7 +187,8 @@
 		"css": 31,
 		"js": 58,
 		"iconClass": "fa-js",
-		"tagCover": "JavaScript"
+		"tagCover": "JavaScript",
+		"category": "ocr"
 	},
 	{
 		"id": "9",
@@ -202,7 +210,8 @@
 		"css": 62,
 		"js": 23,
 		"iconClass": "fa-js",
-		"tagCover": "JavaScript"
+		"tagCover": "JavaScript",
+		"category": "ocr"
 	},
 	{
 		"id": "10",
@@ -226,7 +235,8 @@
 		"css": 29,
 		"js": 54,
 		"iconClass": "fa-react",
-		"tagCover": "React"
+		"tagCover": "React",
+		"category": "ocr"
 	},
 	{
 		"id": "11",
@@ -250,7 +260,8 @@
 		"css": 63,
 		"js": 35,
 		"iconClass": "fa-react",
-		"tagCover": "React"
+		"tagCover": "React",
+		"category": "ocr"
 	},
 	{
 		"id": "12",
@@ -272,7 +283,8 @@
 		"css": 33,
 		"js": 10,
 		"iconClass": "fa-js",
-		"tagCover": "JavaScript"
+		"tagCover": "JavaScript",
+		"category": "ocr"
 	},
 	{
 		"id": "13",
@@ -295,7 +307,8 @@
 		"css": 29,
 		"js": 56,
 		"iconClass": "fa-js",
-		"tagCover": "JavaScript"
+		"tagCover": "JavaScript",
+		"category": "ocr"
 	},
 	{
 		"id": "14",
@@ -317,7 +330,8 @@
 		"css": 59,
 		"js": 0,
 		"iconClass": "fa-html5",
-		"tagCover": "Html5"
+		"tagCover": "Html5",
+		"category": "ocr"
 	},
 	{
 		"id": "15",
@@ -338,6 +352,7 @@
 		"css": 52,
 		"js": 0, 
 		"iconClass": "fa-html5",
-		"tagCover": "Html5"
+		"tagCover": "Html5",
+		"category": "ocr"
 	}
 ]

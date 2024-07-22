@@ -55,6 +55,29 @@
     transform: scale(1.1); /* Effectue un léger zoom au survol */
 }
 
+.linkedin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 6px 6px;
+    margin: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background: #080808;
+    box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+    inset 0 4px 15px rgba(65, 65, 65, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
+    0 0 0 5.5px #080808;
+    border-radius: 10px;
+}
+
+.linkedin:hover {
+    box-shadow:  inset 2px 2px 5px #141414, inset -5px -5px 10px #212121;
+    border-radius:10px;
+}
+
 .fa-linkedin {
     font-size: 30px;
     text-align: center;

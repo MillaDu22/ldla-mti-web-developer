@@ -1,10 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import datasProjects from '../../DatasProjects/datasProjects.json';
 import BackStars from "../BackStars/index";
 import "./timeline.css";
 
 const Timeline = () => {
+    const [category, setCategory] = useState('tous');
+
     useEffect(() => {
         const handleScroll = () => {
             const boxes = document.querySelectorAll(".box");
@@ -28,14 +30,36 @@ const Timeline = () => {
         };
     }, []);
 
+    const filteredProjects = category === 'tous'
+        ? datasProjects
+        : datasProjects.filter(project => project.category === category);
+
     return (
         <section id="timeline">
             <h2 className="heading">Portfolio</h2>
-            <>
-                <BackStars />
-            </>
+            <div className="filter-buttons">
+                <button
+                    onClick={() => setCategory('tous')}
+                    className={category === 'tous' ? 'active' : ''}
+                >
+                    Tous
+                </button>
+                <button
+                    onClick={() => setCategory('ocr')}
+                    className={category === 'ocr' ? 'active' : ''}
+                >
+                    OCR
+                </button>
+                <button
+                    onClick={() => setCategory('perso')}
+                    className={category === 'perso' ? 'active' : ''}
+                >
+                    Perso
+                </button>
+            </div>
+            <BackStars />
             <ul>
-                {datasProjects.map((project) => (
+                {filteredProjects.map((project) => (
                     <li key={project.id}>
                         <i className={`fa-brands ${project.iconClass}`}></i>
                         <div className="box">
@@ -58,4 +82,5 @@ const Timeline = () => {
 };
 
 export default Timeline;
+
 

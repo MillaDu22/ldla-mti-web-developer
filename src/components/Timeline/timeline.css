@@ -34,6 +34,50 @@
   }
 }
 
+.filter-buttons {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left:auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 240px;
+  min-width: 180px;
+  background: #080808;
+  box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+  inset 0 4px 15px rgba(65, 65, 65, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
+  0 0 0 5.5px #080808;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.filter-buttons button {
+  padding: 15px 10px;
+  margin: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background: #080808;
+  box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+  inset 0 4px 15px rgba(65, 65, 65, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
+  0 0 0 5.5px #080808;
+  border-radius: 10px;
+}
+
+.filter-buttons button.active {
+  box-shadow:  inset 2px 2px 5px #141414, inset -5px -5px 10px #212121;
+  border-radius:10px;
+  color:rgb(0, 255, 255);
+}
+
 .title-time {
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
   padding: 1rem 0rem 1rem 0.7rem;
