@@ -272,12 +272,18 @@
 		"site": ["https://milladu22.github.io/nina-carducci/"],
 		"Tags": ["Html5/Css3/JavaScript"],
 		"alt": "photo site photographe Nina Carducci",
-		"cover": "https://i.ibb.co/5rSdTtc/Nina-Carduuci-desk.webp",
+		"cover": "https://res.cloudinary.com/dxawcd8ve/image/upload/v1721745595/Cover-NCarduci_rh4var.png",
 		"photos": [
-			"https://i.ibb.co/0ZdTjHJ/nina-Carducci1-min.webp",
-			"https://i.ibb.co/CWwB0Gw/nina-Carducci2-min.webp",
-			"https://i.ibb.co/594z5vd/nina-Carducci3-min.webp",
-			"https://i.ibb.co/0qr96GB/nina-Carducci4-min.webp"
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721747087/Desktop-NCarducci-front_siq5t0.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721747124/Destop-NCarducci2-front_gleeza.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721747385/Destop-NCarducci3-front_eoengp.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721747732/Desktop-NCarducci4-front_yqnwt5.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721748081/Tab-NCarducci-portrait_zbkdi9.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721748436/Tab-NCarducci2-portrait_xaox28.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721748676/Tab3-NCarducci-portrait_tm16dj.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721749011/Mobile-NCarducci-portrait_rcyvte.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721749223/Mobile-NCarducci2-portrait_yreta1.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721749447/Mobile-NCarducci3-portrait_jts2ok.png"
 		],
 		"html": 57,
 		"css": 33,
@@ -295,13 +301,13 @@
 		"code": ["https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel"],
 		"Tags": ["Html5/Css3/JavaScript"],
 		"alt": "photo site architecte Sophie Bluel",
-		"cover": "https://i.ibb.co/HVNGkq1/cover-SBluel.webp",
+		"cover": "https://res.cloudinary.com/dxawcd8ve/image/upload/v1721742852/Cover-SBluel_ar63ii.png",
 		"photos": [
-			"https://i.ibb.co/pnTncTy/portfolio-Architecte11-min.webp",
-			"https://i.ibb.co/jzh4RvX/portfolio-Architecte12-min.webp",
-			"https://i.ibb.co/XFS0sFX/portfolio-Architecte13-min.webp",
-			"https://i.ibb.co/Tbr3Yt4/portfolio-Architecte14-min.webp",
-			"https://i.ibb.co/VCMZzFk/portfolio-Architecte15-min.webp"
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721743690/Desktop-SBluel-front_ymotbc.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721744016/Desktop-SBluel2-front_ubcut4.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721744321/Desktop-SBluel3-front_akhr3a.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721744728/Desktop-SBluel4-front_cvhx11.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721745069/Desktop-SBluel5-front_magnlo.png"
 		],
 		"html": 15,
 		"css": 29,
@@ -319,12 +325,15 @@
 		"code": ["https://github.com/MillaDu22/Ohmyfood-"],
 		"site": ["https://milladu22.github.io/Ohmyfood-/"],
 		"alt": "photo site Ohmyfood",
-		"cover": "https://i.ibb.co/n3ChFqg/cover-ohmyfood.webp",
+		"cover": "https://res.cloudinary.com/dxawcd8ve/image/upload/v1721739075/Cover-ohmyfood_a8qysg.png",
 		"photos": [
-			"https://i.ibb.co/Z6Qh48n/ohmyfood11-min.webp",
-			"https://i.ibb.co/L1T4s7q/ohmyfood2-min.webp",
-			"https://i.ibb.co/BnBWBns/ohmyfood3-min.webp",
-			"https://i.ibb.co/Bj2T1qz/ohmyfood4-min.webp"
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721740361/Desktop-ohmyfood-front_qxese5.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721740686/Desktop-ohmyfood2-front_zkxmjk.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721740941/Desktop-ohmyfood3-front_qgh13l.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721741471/Tab-ohmyfood-portrait_ezrht6.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721741651/Tab-ohmyfoof2-portrait_g1vbcn.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721741940/Mobile-ohmyfood-portrait_gxnk7w.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721742112/Mobile-ohmyfood2-portrait_umkvso.png"
 		],
 		"html": 41,
 		"css": 59,
@@ -342,11 +351,12 @@
 		"code": ["https://github.com/MillaDu22/booki-agence-de-voyage"],
 		"site": ["https://milladu22.github.io/booki-agence-de-voyage/"],
 		"alt": "Photo site Booki",
-		"cover":  "https://i.ibb.co/LRtzV3F/Cover-booki.webp",
+		"cover":  "https://res.cloudinary.com/dxawcd8ve/image/upload/v1721723935/Cover-booki_cc5ik0.png",
 		"photos": [
-			"https://i.ibb.co/VHnPNYN/booki1-min.webp",
-			"https://i.ibb.co/xMDrj9c/bookiTab.webp",
-			"https://i.ibb.co/8655LH2/booki3-min.webp"
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721724874/Desktop-booki2-front_ij7gol.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721725269/Desktop-booki-front_otctjn.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721727320/Tab-booki-portrait_luwlkc.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1721726668/Mobile-booki-portrait_azsb0k.png"
 		],
 		"html": 48,
 		"css": 52,
