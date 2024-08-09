@@ -1,6 +1,32 @@
 [
 	{
 		"id": "1",
+		"title": "Cloud-upload",
+		"informations": "Implémentation d'une app React d'uploading vers Cloudinary... Lire +. ",
+		"description": "Implémentation d'une app React d'uploading multiples d'images vers Cloudinary. Server express coté backend et fetching axios coté frontend. Affichage noms et url. Outil pratique pour photographes.",
+		"code": ["https://github.com/MillaDu22/upload-app"],
+		"Tags": ["express", "axios"],
+		"alt": "photo app upload to Cloudinary",
+		"cover": "https://res.cloudinary.com/dxawcd8ve/image/upload/v1723235570/Upload-cover_zomtly.png",
+		"photos":[
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233449/Upload1-desktop-front_rz0btv.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233481/Upload2-desltop-front_md3f29.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233512/Upload3-desktop-front_xoq19g.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233526/Upload4-desktop-front_iyb6wv.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233547/Upload1-mobile-portrait_kopsgy.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233564/Upload2-mobile-portrait_weraku.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233587/Upload3-mobile-portrait_bjijos.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233613/Upload4-mobile-portrait_x97cbk.png"
+		],
+		"html": 7,
+		"css": 35,
+		"js": 58,
+		"iconClass": "fa-react",
+		"tagCover": "React",
+		"category": "perso"
+	},
+	{
+		"id": "2",
 		"title": "Family-tree",
 		"informations": "Implémentation d'un site personnalisé de généalogie avec React... Lire +. ",
 		"description": "Implémentation d'un site personnalisé de généalogie avec React, React-Router pour le routage vers les differentes pages. 4 pages: accueil, arbre, membres, fiche membre. L'arbre est scrollable horizontalement. Les datas sont simulées pour l'exemple.",
@@ -27,7 +53,7 @@
 		"category": "perso"
 	},
 	{
-		"id": "2",
+		"id": "3",
 		"title": "Ldla-Mti-Lens",
 		"informations": "Implémentation de mon site de photographie avec React... Lire +. ",
 		"description": "Implémentation de mon site de photographie avec React, React-Router pour le routage vers les differentes pages et datas sous format json. Gallerie Css 'grid' pour les differents formats d'images. Photos optimisées pour le web.",
@@ -54,7 +80,7 @@
 		"category": "perso"
 	},
 	{
-		"id": "3",
+		"id": "4",
 		"title": "Docker",
 		"informations": "Optimisation de mon deploiement avec des conteneurs Docker... Lire +. ",
 		"description": "Fixtures Node pour le peuplement DB Mongo en local et optimisation d'un deploiement React: AlwaysData, Express, Mongo et Node avec des conteneurs Docker.",
@@ -83,7 +109,7 @@
 		"category": "perso"
 	},
 	{
-		"id": "4",
+		"id": "5",
 		"title": "Fullstack",
 		"informations": "Passage d'une application React frontend à fullstack... Lire +. ",
 		"description": "Passage d'une application React frontend à fullstack sur un ancien portofolio avec NodeJs, Express et MongoDB. Déploiement du backend avec alwaysData.",
@@ -106,7 +132,7 @@
 		"category": "perso"
 	},
 	{
-		"id": "5",
+		"id": "6",
 		"title": "Wealth-Health",
 		"informations": "Passage d'une librairie JQuery vers React... Lire +. ",
 		"description": "Passage d'une librairie JQuery vers React. Impléméntation et utilisation de mon propre composant react publié sur npm. Conversion de l'application totale. Mise en place d'un router et d'un state global.",
@@ -131,7 +157,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "6",
+		"id": "7",
 		"title": "SportSee",
 		"informations": "Développement d'un tableau de bord d'analytics avec React... Lire +. ",
 		"description": "Développement d'un tableau de bord d'analytics avec React. Les graphiques ont été impléméntés avec la librairie Recharts.",
@@ -153,7 +179,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "7",
+		"id": "8",
 		"title": "Bills-app",
 		"informations": "Déboggage et tests d'un SaaS RH... Lire +. ",
 		"description": "Déboggage et tests d'un SaaS RH. Bills-app est une application de notes de frais qui présentait des bugs. Il y a deux parcours utilisateurs : un administrateur RH et un employé. Je devais donc débogger et implementer des tests pour l'application.",
@@ -174,7 +200,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "8",
+		"id": "9",
 		"title": "Les petits plats",
 		"informations": "Développement d'algorithmes de recherche en JavaScript... Lire +. ",
 		"description": "Développement d'algorithmes de recherche en JavaScript. Ce projet m'a mise au défi de développer un algorithme de recherche efficace pour une plateforme de recettes de cuisine.",
@@ -198,7 +224,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "9",
+		"id": "10",
 		"title": "FishEye",
 		"informations": "Création d'un site accessible pour une plateforme de photographes... Lire +. ",
 		"description": "Création d'un site accessible pour une plateforme de photographes. Pour résumer, mon objectif a été de construire un prototype fonctionnel du nouveau site web FishEye. La priorité absolue a été l'accessibilité. ",
@@ -225,7 +251,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "10",
+		"id": "11",
 		"title": "GameOn",
 		"informations": "Création de la landing page d'une PME spécialisée dans les concours de jeux... Lire +. ",
 		"description": "Création de la landing page d'une PME spécialisée dans les concours de jeux. Mon travail consistait à ajouter le code JavaScript manquant pour que le formulaire soit pleinement fonctionnel.",
@@ -248,7 +274,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "11",
+		"id": "12",
 		"title": "Argent-Bank",
 		"informations": "Implémentation du front-end d'une application bancaire avec React... Lire +.",
 		"description": "Projet de base en Html & Css convertit en React. Authentification et possibilité de gérer le profil par l'utilisateur. Rédaction de la documentation transactions décrivant les routes API suivant les directives Swagger.",
@@ -269,7 +295,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "12",
+		"id": "13",
 		"title": "Kasa",
 		"informations": "Création d'une application web de location immobilière avec React... Lire +.",
 		"description": "Création d'une app de location immobilière avec React. Ce site était codé en ASP.NET avec un code legacy important. Refonte totale en React côté front-end. Pas de développeur back-end, le frontend est construit via un fichier JSON de datas.",
@@ -295,7 +321,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "13",
+		"id": "14",
 		"title": "N.Carducci",
 		"informations": "Optimisation du référencement d'un site de photographe... Lire +.",
 		"description": "Optimisation du référencement d'un site de photographe. Réalisation d'audit avant et après optimisation. Réalisation d'un rapport d'optimisation. Augmentation des performances, de l'accessibilité, et du SEO.",
@@ -324,7 +350,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "14",
+		"id": "15",
 		"data": "javascript",
 		"title": "S.Bluel",
 		"informations": "Création d'une page web dynamique avec JavaScript... Lire +.",
@@ -348,7 +374,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "15",
+		"id": "16",
 		"title": "Ohmyfood!",
 		"informations": "Amélioration de l'interface d'un site mobile avec des animations CSS... Lire +.",
 		"Tags": ["Html5", "Css3/Sass"],
@@ -374,7 +400,7 @@
 		"category": "ocr"
 	},
 	{
-		"id": "16",
+		"id": "17",
 		"title": "Booki",
 		"informations": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS... Lire +.",
 		"Tags": ["Html5", "Css3"],
