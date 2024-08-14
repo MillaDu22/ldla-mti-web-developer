@@ -3,7 +3,7 @@
 		"id": "1",
 		"title": "Cloud-upload",
 		"informations": "Implémentation d'une app React d'uploading vers Cloudinary... Lire +. ",
-		"description": "Implémentation d'une app React d'uploading multiples d'images vers Cloudinary. Server express coté backend et fetching axios coté frontend. Affichage noms et url. Outil pratique pour photographes.",
+		"description": "Implémentation d'une app React d'uploading multiples d'images vers Cloudinary. Server express coté backend et fetching axios coté frontend. POST, GET, DELETE. Outil pratique pour photographes.",
 		"code": ["https://github.com/MillaDu22/upload-app"],
 		"Tags": ["express", "axios"],
 		"alt": "photo app upload to Cloudinary",
@@ -13,10 +13,12 @@
 			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233481/Upload2-desltop-front_md3f29.png",
 			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233512/Upload3-desktop-front_xoq19g.png",
 			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233526/Upload4-desktop-front_iyb6wv.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723638343/Upload5-descktop-front_zgalba.png",
 			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233547/Upload1-mobile-portrait_kopsgy.png",
 			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233564/Upload2-mobile-portrait_weraku.png",
 			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233587/Upload3-mobile-portrait_bjijos.png",
-			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233613/Upload4-mobile-portrait_x97cbk.png"
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723233613/Upload4-mobile-portrait_x97cbk.png",
+			"https://res.cloudinary.com/dxawcd8ve/image/upload/v1723638332/Upload5-mobile-portrait_all6wz.png"
 		],
 		"html": 7,
 		"css": 35,
