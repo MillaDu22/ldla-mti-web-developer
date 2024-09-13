@@ -139,7 +139,7 @@
 		"informations": "Passage d'une librairie JQuery vers React... Lire +. ",
 		"description": "Passage d'une librairie JQuery vers React. Impléméntation et utilisation de mon propre composant react publié sur npm. Conversion de l'application totale. Mise en place d'un router et d'un state global.",
 		"code": ["https://github.com/MillaDu22/rhnet-wealth-health"],
-		"site": ["https://milladu22.github.io/rhnet-wealth-health/"],
+		"site": ["https://rhnet-wealth-health.vercel.app"],
 		"Tags": ["React/Redux/npm"],
 		"alt": "photo site Wealth Health",
 		"cover": "https://res.cloudinary.com/dxawcd8ve/image/upload/v1721829297/Cover-RHnet_pmz7fy.png",
