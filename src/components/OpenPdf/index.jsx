@@ -4,7 +4,7 @@ import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import "./OpenPdf.css";
-import A4 from "../../assets/pdf/cv-lmarti-2024.pdf";
+import A4 from "../../assets/pdf/cv-lmarti-awc-2024.pdf";
 
 function OpenPdf() {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
